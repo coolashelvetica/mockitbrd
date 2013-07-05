@@ -2,17 +2,27 @@
 @import "../helpers/variables";
 
 .image-role {
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     display: block;
     margin: 0 auto;
     margin-top: 30px;
 }
 
 .register-step-1 {
+    width:700px;
+    height:450px;
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: center;
+
     .register-step-box {
+        background-image: url("/lib/img/stepboxbg.png");
+        width:600px;
+        height:450px;
+        margin: 0 auto;
         .register-role {
                 .input_hidden {
                     position: absolute;
@@ -24,6 +34,7 @@
                     width: 150px;
                     height: 150px;
                     background-color: #fff;
+                    margin-right:50px;
 
                     .candidate-image {
                         background-image: url("/lib/img/candblue.png");
