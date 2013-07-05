@@ -1,23 +1,28 @@
 /*
-Syntax error: Invalid CSS after "}": expected "}", was ""
-        on line 89 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss
+Syntax error: File to import not found or unreadable: steps.
+              Load paths:
+                /Users/fashiru/prj/mockitbrd/lib/sass
+                /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+        on line 3 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss
         from line 10 of /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss
 
+1: /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss
+
 Backtrace:
-/Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss:89
+/Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss:3
 /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss:10
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1148:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1084:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1079:in `tok!'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:536:in `block'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:553:in `block_child'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:546:in `block_contents'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:82:in `stylesheet'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:27:in `parse'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/engine.rb:342:in `_to_tree'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/engine.rb:274:in `to_tree'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:225:in `visit_import'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/import_node.rb:67:in `import'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/import_node.rb:28:in `imported_file'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/import_node.rb:37:in `css_import?'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:217:in `visit_import'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:227:in `map'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
@@ -79,4 +84,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 89 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss\A         from line 10 of /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss"; }
+  content: "Syntax error: File to import not found or unreadable: steps.\A               Load paths:\A                 /Users/fashiru/prj/mockitbrd/lib/sass\A                 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 3 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss\A         from line 10 of /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss\A \A 1: /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss"; }
