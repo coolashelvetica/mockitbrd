@@ -10,24 +10,43 @@
     }
 }
 
-.input_hidden {
-    position: absolute;
-    left: -9999px;
-}
+.register-step-1 {
+    .register-box {
+        .register-role {
+                .input_hidden {
+                    position: absolute;
+                    left: -9999px;
+                }
+                label {
+                    display: inline-block;
+                    cursor: pointer;
 
-.selected {
-    background-color: #ccc;
-}
+                    .candidate-image {
+                        background-image: url ("/lib/img/candwhite.png");
+                    }
 
-.register-role label {
-    display: inline-block;
-    cursor: pointer;
+                    .interviewer-image {
+                        background-image: url ("/lib/img/intwhite.png");
+                    }
 
-    img {
-         padding: 3px;
+                    &.selected {
+                        background-color: #ccc;
+
+                        .candidate-image {
+                        background-image: url ("/lib/img/candblue.png");
+                        }
+
+                        .interviewer-image {
+                            background-image: url ("/lib/img/candblue.png");
+                        }
+                    }
+
+
+
+                img {
+                    padding: 3px;
+                }
+            }
+        }
     }
-}
-
-.switch {
-    display:none;
 }

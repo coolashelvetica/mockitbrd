@@ -434,30 +434,39 @@ input:-moz-placeholder {
   width: 100%;
 }
 
-/* line 13, ../sass/modules/register.scss */
-.input_hidden {
+/* line 16, ../sass/modules/register.scss */
+.register-step-1 .register-box .register-role .input_hidden {
   position: absolute;
   left: -9999px;
 }
-
-/* line 18, ../sass/modules/register.scss */
-.selected {
-  background-color: #ccc;
-}
-
-/* line 22, ../sass/modules/register.scss */
-.register-role label {
+/* line 20, ../sass/modules/register.scss */
+.register-step-1 .register-box .register-role label {
   display: inline-block;
   cursor: pointer;
 }
-/* line 26, ../sass/modules/register.scss */
-.register-role label img {
-  padding: 3px;
+/* line 24, ../sass/modules/register.scss */
+.register-step-1 .register-box .register-role label .candidate-image {
+  background-image: url "/lib/img/candwhite.png";
 }
-
-/* line 31, ../sass/modules/register.scss */
-.switch {
-  display: none;
+/* line 28, ../sass/modules/register.scss */
+.register-step-1 .register-box .register-role label .interviewer-image {
+  background-image: url "/lib/img/intwhite.png";
+}
+/* line 32, ../sass/modules/register.scss */
+.register-step-1 .register-box .register-role label.selected {
+  background-color: #ccc;
+}
+/* line 35, ../sass/modules/register.scss */
+.register-step-1 .register-box .register-role label.selected .candidate-image {
+  background-image: url "/lib/img/candblue.png";
+}
+/* line 39, ../sass/modules/register.scss */
+.register-step-1 .register-box .register-role label.selected .interviewer-image {
+  background-image: url "/lib/img/candblue.png";
+}
+/* line 46, ../sass/modules/register.scss */
+.register-step-1 .register-box .register-role label img {
+  padding: 3px;
 }
 
 /* line 9, ../sass/helpers/variables.scss */

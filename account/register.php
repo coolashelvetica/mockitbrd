@@ -181,13 +181,11 @@ if(!empty($_POST))
             		<div class="register-role">
 				    	<input type="radio" name="role" class="interviewer" value="Interviewer"/>
 					    <label for="interviewer">
-					    	<img class="unswitch" src="/lib/img/intwhite.png"/> 
-					    	<img class="switch" src="/lib/img/intblue.png"/> 
+					    	<div class="candidate-image"></div>
 					    </label>
-					    <input type="radio" name="role" class="Candidate" value="Candidate"/>
-					    <label for="happy">
-					    	<img class="unswitch" src="/lib/img/candwhite.png"/>
-					    	<img class="switch" src="/lib/img/candblue.png"/></label>
+					    <input type="radio" name="role" class="andidate" value="Candidate"/>
+					    <label for="andidate">
+					    	<div class="interviewer-image"></div>
 					</div>
             	</div>
             </div>
