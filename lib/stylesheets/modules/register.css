@@ -1,0 +1,33 @@
+/* line 1, ../../sass/modules/register.scss */
+.register-banner {
+  background-image: url("/lib/img/signupbg.jpg");
+  height: 800px;
+  overflow: hidden;
+}
+/* line 7, ../../sass/modules/register.scss */
+.register-banner img {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 13, ../../sass/modules/register.scss */
+.input_hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+/* line 18, ../../sass/modules/register.scss */
+.selected {
+  background-color: #ccc;
+}
+
+/* line 22, ../../sass/modules/register.scss */
+.register-role label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* line 27, ../../sass/modules/register.scss */
+.register-role label img {
+  padding: 3px;
+}

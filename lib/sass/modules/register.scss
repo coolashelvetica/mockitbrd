@@ -1,0 +1,29 @@
+.register-banner {
+	@extend .banner;
+	background-image: url("/lib/img/signupbg.jpg");
+	height: 800px;
+	overflow: hidden;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.input_hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+.selected {
+    background-color: #ccc;
+}
+
+.register-role label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.register-role label img {
+    padding: 3px;
+}

@@ -422,6 +422,40 @@ input:-moz-placeholder {
   height: 500px;
 }
 
+/* line 1, ../sass/modules/register.scss */
+.register-banner {
+  background-image: url("/lib/img/signupbg.jpg");
+  height: 800px;
+  overflow: hidden;
+}
+/* line 7, ../sass/modules/register.scss */
+.register-banner img {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 13, ../sass/modules/register.scss */
+.input_hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+/* line 18, ../sass/modules/register.scss */
+.selected {
+  background-color: #ccc;
+}
+
+/* line 22, ../sass/modules/register.scss */
+.register-role label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* line 27, ../sass/modules/register.scss */
+.register-role label img {
+  padding: 3px;
+}
+
 /* line 9, ../sass/helpers/variables.scss */
 .clear-both {
   clear: both;
@@ -851,13 +885,13 @@ input:-moz-placeholder {
   src: url("../fonts/homizio.ttf");
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 html {
   height: 100%;
   font-family: homizio;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 body {
   height: 100%;
   position: relative;
@@ -865,8 +899,8 @@ body {
   background-color: #ededed;
 }
 
-/* line 30, ../sass/screen.scss */
-.banner, .home-banner, .landing-banner, .register-banner {
+/* line 31, ../sass/screen.scss */
+.banner, .register-banner, .home-banner, .landing-banner {
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -883,29 +917,29 @@ body {
   zoom: 1;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .home-banner {
   background-image: url("/lib/img/banner-hw.jpg");
   height: 525px;
   padding-top: 175px;
 }
-/* line 53, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .home-banner .message {
   float: left;
   color: #fff;
   padding-left: 50px;
 }
-/* line 58, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .home-banner .message h1 {
   font-size: 90px;
 }
-/* line 62, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .home-banner .message p {
   font-size: 20px;
   width: 500px;
   font-weight: 100;
 }
-/* line 69, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .home-banner .imac {
   float: right;
   background-image: url("/lib/img/imac.png");
@@ -918,25 +952,13 @@ body {
   right: 50px;
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .landing-banner {
   height: 450px;
   overflow: hidden;
 }
-/* line 87, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .landing-banner img {
-  height: 100%;
-  width: 100%;
-}
-
-/* line 93, ../sass/screen.scss */
-.register-banner {
-  background-image: url("/lib/img/signupbg.jpg");
-  height: 450px;
-  overflow: hidden;
-}
-/* line 99, ../sass/screen.scss */
-.register-banner img {
   height: 100%;
   width: 100%;
 }
