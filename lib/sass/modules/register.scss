@@ -21,9 +21,12 @@
     .register-step-box {
         background-image: url("/lib/img/stepboxbg.png");
         width:600px;
-        height:450px;
+        height:360px;
         margin: 0 auto;
+        background-position: 0px;
+        padding-top: 150px;
         .register-role {
+            margin-left:50px;
                 .input_hidden {
                     position: absolute;
                     left: -9999px;
