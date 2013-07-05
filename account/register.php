@@ -178,6 +178,27 @@ if(!empty($_POST))
         <header class="register-banner">
             <div class="register-step-1">
             	<div class="register-step-box">
+            		<div class="register-progress">
+            			<h1>Set up your account</h1>
+            			<ol class="wizard-progress clearfix">
+						    <li class="active-step">
+						        <span class="step-name">Select your role</span>
+						        <span class="visuallyhidden">Step </span><span class="step-num">1</span>
+						    </li>
+						    <li>
+						        <span class="step-name">Personal Information</span>
+						        <span class="visuallyhidden">Step </span><span class="step-num">2</span>
+						    </li>
+						    <li>
+						        <span class="step-name">Role Information</span>
+						        <span class="visuallyhidden">Step </span><span class="step-num">3</span>
+						    </li>
+						    <li>
+						        <span class="step-name">Billing Information</span>
+						        <span class="visuallyhidden">Step </span><span class="step-num">4</span>
+						    </li>
+						</ol>
+            		</div>
             		<div class="register-role">
 				    	<input type="radio" name="role" class="interviewer" value="Interviewer"/>
 					    <label for="interviewer">

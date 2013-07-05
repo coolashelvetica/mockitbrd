@@ -25,6 +25,72 @@
         margin: 0 auto;
         background-position: 0px;
         padding-top: 150px;
+
+        .visuallyhidden {
+            display: none;
+        }
+
+        .wizard-progress {
+            list-style: none;
+            list-style-image: none;
+            margin: 0;
+            padding: 0;
+            margin-top: 20px;
+            float: left;
+            white-space: nowrap;
+
+            li {
+                float: left;
+                margin-right: 50px;
+                text-align: center;
+                position: relative;
+                width: 100px;
+                &:last-of-type {
+                    .step-num:after {
+                        display: none;
+                    }
+                }
+            }
+        .active-step {
+            .step-num {
+                background-color: $accentColor;
+            }
+        }
+        .step-name {
+            display: table-cell;
+            height: 32px;
+            vertical-align: bottom;
+            text-align: center;
+            width: 100px;
+        }
+        .step-name-wrapper {
+            display: table-cell;
+            height: 100%;
+            vertical-align: bottom;
+        }
+        .step-num {
+            font-size: 14px;
+            font-weight: bold;
+            border: 3px solid #fff;
+            border-radius: 50%;
+            width: 18px;
+            display: inline-block;
+            margin-top: 10px;
+
+            &:after {
+                content: "";
+                display: block;
+                background: #fff;
+                height: 5px;
+                width: 130px;
+                position: absolute;
+                bottom: 10px;
+                left: 60px;
+            }
+
+        }
+
+    }
         .register-role {
             margin-left:50px;
                 .input_hidden {
@@ -49,7 +115,7 @@
                         @extend .image-role;
                     }
                     .role-label {
-                        color: #fff;
+                        color: $accentColor;
                         padding-top: 25px;
                         font-size: 20px;
                     }
@@ -67,7 +133,7 @@
                             @extend .image-role;
                         }
                         .role-label {
-                            color: $accentColor;
+                            color: #fff;
                             padding-top: 25px;
                             font-size: 20px;
                         }

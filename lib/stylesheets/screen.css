@@ -465,16 +465,81 @@ input:-moz-placeholder {
   background-position: 0px;
   padding-top: 150px;
 }
-/* line 28, ../sass/modules/register.scss */
+/* line 29, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .visuallyhidden {
+  display: none;
+}
+/* line 33, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .wizard-progress {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  float: left;
+  white-space: nowrap;
+}
+/* line 42, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .wizard-progress li {
+  float: left;
+  margin-right: 50px;
+  text-align: center;
+  position: relative;
+  width: 100px;
+}
+/* line 49, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .wizard-progress li:last-of-type .step-num:after {
+  display: none;
+}
+/* line 55, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .wizard-progress .active-step .step-num {
+  background-color: #06aaf7;
+}
+/* line 59, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .wizard-progress .step-name {
+  display: table-cell;
+  height: 32px;
+  vertical-align: bottom;
+  text-align: center;
+  width: 100px;
+}
+/* line 66, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .wizard-progress .step-name-wrapper {
+  display: table-cell;
+  height: 100%;
+  vertical-align: bottom;
+}
+/* line 71, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .wizard-progress .step-num {
+  font-size: 14px;
+  font-weight: bold;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  width: 18px;
+  display: inline-block;
+  margin-top: 10px;
+}
+/* line 80, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .wizard-progress .step-num:after {
+  content: "";
+  display: block;
+  background: #fff;
+  height: 5px;
+  width: 130px;
+  position: absolute;
+  bottom: 10px;
+  left: 60px;
+}
+/* line 94, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role {
   margin-left: 50px;
 }
-/* line 30, ../sass/modules/register.scss */
+/* line 96, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role .input_hidden {
   position: absolute;
   left: -9999px;
 }
-/* line 34, ../sass/modules/register.scss */
+/* line 100, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label {
   display: inline-block;
   cursor: pointer;
@@ -483,39 +548,39 @@ input:-moz-placeholder {
   background-color: #fff;
   margin-right: 50px;
 }
-/* line 42, ../sass/modules/register.scss */
+/* line 108, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label .candidate-image {
   background-image: url("/lib/img/candblue.png");
 }
-/* line 47, ../sass/modules/register.scss */
+/* line 113, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label .interviewer-image {
   background-image: url("/lib/img/intblue.png");
 }
-/* line 51, ../sass/modules/register.scss */
+/* line 117, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label .role-label {
-  color: #fff;
-  padding-top: 25px;
-  font-size: 20px;
-}
-/* line 57, ../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label.selected {
-  background-color: #06aaf7;
-}
-/* line 60, ../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label.selected .candidate-image {
-  background-image: url("/lib/img/candwhite.png");
-}
-/* line 65, ../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label.selected .interviewer-image {
-  background-image: url("/lib/img/intwhite.png");
-}
-/* line 69, ../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label.selected .role-label {
   color: #06aaf7;
   padding-top: 25px;
   font-size: 20px;
 }
-/* line 75, ../sass/modules/register.scss */
+/* line 123, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label.selected {
+  background-color: #06aaf7;
+}
+/* line 126, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label.selected .candidate-image {
+  background-image: url("/lib/img/candwhite.png");
+}
+/* line 131, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label.selected .interviewer-image {
+  background-image: url("/lib/img/intwhite.png");
+}
+/* line 135, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label.selected .role-label {
+  color: #fff;
+  padding-top: 25px;
+  font-size: 20px;
+}
+/* line 141, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label img {
   padding: 3px;
 }
