@@ -1,34 +1,34 @@
 /* line 5, ../../sass/modules/register.scss */
-.register-step-1 .register-box .register-role .input_hidden {
+.register-step-1 .register-step-box .register-role .input_hidden {
   position: absolute;
   left: -9999px;
 }
 /* line 9, ../../sass/modules/register.scss */
-.register-step-1 .register-box .register-role label {
+.register-step-1 .register-step-box .register-role label {
   display: inline-block;
   cursor: pointer;
 }
 /* line 13, ../../sass/modules/register.scss */
-.register-step-1 .register-box .register-role label .candidate-image {
+.register-step-1 .register-step-box .register-role label .candidate-image {
   background-image: url "/lib/img/candwhite.png";
 }
 /* line 17, ../../sass/modules/register.scss */
-.register-step-1 .register-box .register-role label .interviewer-image {
+.register-step-1 .register-step-box .register-role label .interviewer-image {
   background-image: url "/lib/img/intwhite.png";
 }
 /* line 21, ../../sass/modules/register.scss */
-.register-step-1 .register-box .register-role label.selected {
+.register-step-1 .register-step-box .register-role label.selected {
   background-color: #ccc;
 }
 /* line 24, ../../sass/modules/register.scss */
-.register-step-1 .register-box .register-role label.selected .candidate-image {
+.register-step-1 .register-step-box .register-role label.selected .candidate-image {
   background-image: url "/lib/img/candblue.png";
 }
 /* line 28, ../../sass/modules/register.scss */
-.register-step-1 .register-box .register-role label.selected .interviewer-image {
+.register-step-1 .register-step-box .register-role label.selected .interviewer-image {
   background-image: url "/lib/img/candblue.png";
 }
 /* line 35, ../../sass/modules/register.scss */
-.register-step-1 .register-box .register-role label img {
+.register-step-1 .register-step-box .register-role label img {
   padding: 3px;
 }
