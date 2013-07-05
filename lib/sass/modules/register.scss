@@ -25,13 +25,21 @@
         height:560px;
         margin: 0 auto;
         background-position: 0px;
+        position:relative;
             h1 {
                 color: #fff;
                 font-size: 20px;
                 margin-bottom: 20px;
                 font-weight: 100;
             }
-
+        .step-box-bottom {
+            position: absolute;
+            bottom: 30px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 100;
+            left: 260px;
+        }
         .register-progress {
             color:#fff;
             font-weight:100;
