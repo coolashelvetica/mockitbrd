@@ -434,11 +434,11 @@ input:-moz-placeholder {
 }
 /* line 13, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label .candidate-image {
-  background-image: url "/lib/img/candwhite.png";
+  background-image: url("/lib/img/candwhite.png");
 }
 /* line 17, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label .interviewer-image {
-  background-image: url "/lib/img/intwhite.png";
+  background-image: url("/lib/img/intwhite.png");
 }
 /* line 21, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label.selected {
@@ -446,11 +446,11 @@ input:-moz-placeholder {
 }
 /* line 24, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label.selected .candidate-image {
-  background-image: url "/lib/img/candblue.png";
+  background-image: url("/lib/img/candblue.png");
 }
 /* line 28, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label.selected .interviewer-image {
-  background-image: url "/lib/img/candblue.png";
+  background-image: url("/lib/img/candblue.png");
 }
 /* line 35, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label img {
