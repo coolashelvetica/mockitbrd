@@ -210,15 +210,10 @@ if(!empty($_POST))
 					    	<div class="candidate-image"></div>
 					    	<div class="role-label">Candidate</div>
 					</div>
-					<button class="medium-accent">
+					<button class="small-accent">
 	                    <div class="buttonLeft pull-left">
 	                        <div class="title">Next</div>
-	                        <div class="lede">step 2</div>
 	                    </div>
-	                    <div class="buttonRight pull-right">
-	                        <i class="icon-circle-arrow-right"></i>
-	                    </div>
-
 	                </button>
 					<div class="step-box-bottom">
 						<span>Already have an account? <a class="loginButton">Login</a>.</span>
