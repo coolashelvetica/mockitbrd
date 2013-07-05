@@ -180,9 +180,15 @@ if(!empty($_POST))
             	<div class="register-step-box">
             		<div class="register-role">
 				    	<input type="radio" name="role" class="interviewer" value="Interviewer"/>
-					    <label for="interviewer"><img class="unswitch" src="/lib/img/intwhite.png"/> <img class="switch" src="/lib/img/intblue.png"/> </label>
+					    <label for="interviewer">
+					    	<img class="unswitch" src="/lib/img/intwhite.png"/> 
+					    	<img class="switch" src="/lib/img/intblue.png"/> 
+					    </label>
 					    <input type="radio" name="role" class="Candidate" value="Candidate"/>
-					    <label for="happy"><img class="unswitch" src="/lib/img/candwhite.png"/><img class="switch" src="/lib/img/candblue.png"/></label>
+					    <label for="happy">
+					    	<img class="unswitch" src="/lib/img/candwhite.png"/>
+					    	<img class="switch" src="/lib/img/candblue.png"/>
+					    </label>
 					</div>
             	</div>
             </div>
