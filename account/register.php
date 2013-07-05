@@ -176,7 +176,7 @@ if(!empty($_POST))
         </div>
         <div class="black-overlay"></div>
         <header class="register-banner">
-            <div class="register-step-1">
+            <div class="register-steps">
             	<div class="register-step-box">
             		<div class="register-progress">
             			<h1>Set up your account</h1>
@@ -198,8 +198,8 @@ if(!empty($_POST))
 						    </div>
 						  </section>
             		</div>
-            		<h1>Pick your role: </h1>
             		<div class="register-role">
+            			<h1>Pick your role: </h1>
 				    	<input type="radio" name="role" class="interviewer" value="Interviewer"/>
 					    <label for="interviewer">
 					    	<div class="interviewer-image"></div>
@@ -210,7 +210,7 @@ if(!empty($_POST))
 					    	<div class="candidate-image"></div>
 					    	<div class="role-label">Candidate</div>
 					</div>
-					<button class="small-accent">
+					<button class="small-accent step1tostep2">
 	                    <div class="buttonLeft pull-left">
 	                        <div class="title">Next</div>
 	                    </div>
