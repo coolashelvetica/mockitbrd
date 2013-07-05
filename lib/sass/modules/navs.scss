@@ -1,0 +1,203 @@
+@import "../helpers/variables";
+
+.navigation {
+    width: 100%;
+    position:absolute;
+    box-shadow: 0px 0px 4px #000;
+
+
+    .logo-holder {
+        float: left;
+        margin-left:30px;
+        margin-top:10px;
+
+    img {
+        width:200px;
+        }
+    }
+    .nav {
+        color: #fff;
+        font-size: 20px;
+        margin-right: 10%;
+        margin-top: 30px;
+        float: right;
+        .loginButton {
+        position: relative;
+        top: 25px;
+        }
+        li {
+            cursor:pointer;
+            display:inline-block;
+            padding-right:20px;
+            &:hover {
+                color: $accentColor;
+            }
+        }
+    }
+}
+.public-nav {
+    height: 150px;
+    background: rgba(255,250,250, 0.1);
+    @extend .navigation;
+}
+
+.private-nav {
+    height: 90px;
+    background-color: $superDarkGrey;
+
+    .logo-holder {
+        position: absolute;
+        bottom: 10px;
+    }
+    @extend .navigation;
+}
+
+.user-nav {
+    float:right;
+    width:400px;
+    position:relative;
+    .left {
+        height: 210px;
+        width: 170px;
+        display: inline;
+        float: left;
+        .user-upload-button {
+            width: 150px;
+            height: 150px;
+            z-index: 1003;
+            line-height: 0;
+            font-size: 50px;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            opacity: 0;
+            filter: alpha(opacity = 0);
+            -ms-filter: "alpha(opacity=0)";
+            cursor: pointer;
+            _cursor: hand;
+            margin: 0;
+            padding: 0;
+        }
+        .hover-overlay-icon {
+            border-radius:100px;
+            cursor:pointer;
+            display:none;
+             width: 150px;
+             height: 160px;
+             position: absolute;
+             color:$accentColor;
+             text-align: center;
+            font-size: 50px;
+            z-index: 10;
+            top: 4px;
+            left: 4px;
+            line-height: 145px;
+        }
+        .user-pic-hover-overlay {
+            border: 2px solid #FFE;
+            cursor:pointer;
+            display:none;
+            width: 150px;
+            background: rgba(0, 0, 0, 0.7);
+            height: 150px;
+            position: absolute;
+            border-radius: 100px;
+            top: 3px;
+            left: 3px;
+        }
+        .user-profile-pic {
+            cursor: pointer;
+            border-radius: 100px;
+            border: 6px solid $superDarkGrey;
+            overflow: hidden;
+            width: 150px;
+            height: 150px;
+            box-shadow: 0px 2px 0px #000;
+            background-color:#fff;
+            img {
+                width:150px;
+                height:150px;
+
+                &.uploadergif {
+                    width: 60px !important;
+                    height: 60px !important;
+                    left: 50px;
+                    top: 50px;
+                    position: absolute;
+                }
+            }
+
+        }
+    }
+    .right {
+        cursor:pointer;
+        width: 175px;
+        height: 125px;
+        position: relative;
+        top: 55px;
+        right:40px;
+        float: right;
+        .user-display-name{
+            display: inline-block;
+            font-size: 18px;
+            color: #fff;
+            &:hover {
+                color:$accentColor;
+            }
+        }
+
+        .user-nav-dropdown-button {
+            margin-left:20px;
+            font-size: 20px;
+            color: #fff;
+            &:hover {
+                color:$accentColor;
+            }
+
+        }
+
+    }
+    .user-nav-dropdown {
+        display:none;
+        width: 180px;
+        height: 250px;
+        position: absolute;
+        left: 185px;
+        background-color: $accentColor;
+        top: 90px;
+        color:#fff;
+
+        ul {
+            li {
+                display:block;
+                padding:15px;
+                cursor:pointer;
+
+                &.staticOption {
+                    background-color: $superDarkAccentShadow;
+                    i{
+                        color:$accentColor;
+                        padding: 10px;
+                    }
+                }
+
+                .user-icon {
+                    display: inline-block;
+                    width: 30px;
+                }
+
+                i{
+                    color:$superDarkAccentShadow;
+                    font-size: 20px;
+                }
+
+                &:hover {
+                    i {
+                        color:$accentColor;
+                    }
+                    background-color: $superDarkAccentShadow;
+                }
+            }
+        }
+    }
+}

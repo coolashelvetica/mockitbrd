@@ -1,0 +1,230 @@
+/* line 9, ../../sass/helpers/variables.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 13, ../../sass/helpers/variables.scss */
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 3, ../../sass/modules/navs.scss */
+.navigation, .public-nav, .private-nav {
+  width: 100%;
+  position: absolute;
+  box-shadow: 0px 0px 4px #000;
+}
+/* line 9, ../../sass/modules/navs.scss */
+.navigation .logo-holder, .public-nav .logo-holder, .private-nav .logo-holder {
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+/* line 14, ../../sass/modules/navs.scss */
+.navigation .logo-holder img, .public-nav .logo-holder img, .private-nav .logo-holder img {
+  width: 200px;
+}
+/* line 18, ../../sass/modules/navs.scss */
+.navigation .nav, .public-nav .nav, .private-nav .nav {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10%;
+  margin-top: 30px;
+  float: right;
+}
+/* line 24, ../../sass/modules/navs.scss */
+.navigation .nav .loginButton, .public-nav .nav .loginButton, .private-nav .nav .loginButton {
+  position: relative;
+  top: 25px;
+}
+/* line 28, ../../sass/modules/navs.scss */
+.navigation .nav li, .public-nav .nav li, .private-nav .nav li {
+  cursor: pointer;
+  display: inline-block;
+  padding-right: 20px;
+}
+/* line 32, ../../sass/modules/navs.scss */
+.navigation .nav li:hover, .public-nav .nav li:hover, .private-nav .nav li:hover {
+  color: #06aaf7;
+}
+
+/* line 38, ../../sass/modules/navs.scss */
+.public-nav {
+  height: 150px;
+  background: rgba(255, 250, 250, 0.1);
+}
+
+/* line 44, ../../sass/modules/navs.scss */
+.private-nav {
+  height: 90px;
+  background-color: #494848;
+}
+/* line 48, ../../sass/modules/navs.scss */
+.private-nav .logo-holder {
+  position: absolute;
+  bottom: 10px;
+}
+
+/* line 55, ../../sass/modules/navs.scss */
+.user-nav {
+  float: right;
+  width: 400px;
+  position: relative;
+}
+/* line 59, ../../sass/modules/navs.scss */
+.user-nav .left {
+  height: 210px;
+  width: 170px;
+  display: inline;
+  float: left;
+}
+/* line 64, ../../sass/modules/navs.scss */
+.user-nav .left .user-upload-button {
+  width: 150px;
+  height: 150px;
+  z-index: 1003;
+  line-height: 0;
+  font-size: 50px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "alpha(opacity=0)";
+  cursor: pointer;
+  _cursor: hand;
+  margin: 0;
+  padding: 0;
+}
+/* line 81, ../../sass/modules/navs.scss */
+.user-nav .left .hover-overlay-icon {
+  border-radius: 100px;
+  cursor: pointer;
+  display: none;
+  width: 150px;
+  height: 160px;
+  position: absolute;
+  color: #06aaf7;
+  text-align: center;
+  font-size: 50px;
+  z-index: 10;
+  top: 4px;
+  left: 4px;
+  line-height: 145px;
+}
+/* line 96, ../../sass/modules/navs.scss */
+.user-nav .left .user-pic-hover-overlay {
+  border: 2px solid #FFE;
+  cursor: pointer;
+  display: none;
+  width: 150px;
+  background: rgba(0, 0, 0, 0.7);
+  height: 150px;
+  position: absolute;
+  border-radius: 100px;
+  top: 3px;
+  left: 3px;
+}
+/* line 108, ../../sass/modules/navs.scss */
+.user-nav .left .user-profile-pic {
+  cursor: pointer;
+  border-radius: 100px;
+  border: 6px solid #494848;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 2px 0px #000;
+  background-color: #fff;
+}
+/* line 117, ../../sass/modules/navs.scss */
+.user-nav .left .user-profile-pic img {
+  width: 150px;
+  height: 150px;
+}
+/* line 121, ../../sass/modules/navs.scss */
+.user-nav .left .user-profile-pic img.uploadergif {
+  width: 60px !important;
+  height: 60px !important;
+  left: 50px;
+  top: 50px;
+  position: absolute;
+}
+/* line 132, ../../sass/modules/navs.scss */
+.user-nav .right {
+  cursor: pointer;
+  width: 175px;
+  height: 125px;
+  position: relative;
+  top: 55px;
+  right: 40px;
+  float: right;
+}
+/* line 140, ../../sass/modules/navs.scss */
+.user-nav .right .user-display-name {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+}
+/* line 144, ../../sass/modules/navs.scss */
+.user-nav .right .user-display-name:hover {
+  color: #06aaf7;
+}
+/* line 149, ../../sass/modules/navs.scss */
+.user-nav .right .user-nav-dropdown-button {
+  margin-left: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+/* line 153, ../../sass/modules/navs.scss */
+.user-nav .right .user-nav-dropdown-button:hover {
+  color: #06aaf7;
+}
+/* line 160, ../../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown {
+  display: none;
+  width: 180px;
+  height: 250px;
+  position: absolute;
+  left: 185px;
+  background-color: #06aaf7;
+  top: 90px;
+  color: #fff;
+}
+/* line 171, ../../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li {
+  display: block;
+  padding: 15px;
+  cursor: pointer;
+}
+/* line 176, ../../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li.staticOption {
+  background-color: #02334a;
+}
+/* line 178, ../../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li.staticOption i {
+  color: #06aaf7;
+  padding: 10px;
+}
+/* line 184, ../../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li .user-icon {
+  display: inline-block;
+  width: 30px;
+}
+/* line 189, ../../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li i {
+  color: #02334a;
+  font-size: 20px;
+}
+/* line 194, ../../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li:hover {
+  background-color: #02334a;
+}
+/* line 195, ../../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li:hover i {
+  color: #06aaf7;
+}
