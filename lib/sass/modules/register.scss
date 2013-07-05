@@ -34,8 +34,8 @@
                 label {
                     display: inline-block;
                     cursor: pointer;
-                    width: 150px;
-                    height: 150px;
+                    width: 170px;
+                    height: 170px;
                     background-color: #fff;
                     margin-right:50px;
 
@@ -47,6 +47,11 @@
                     .interviewer-image {
                         background-image: url("/lib/img/intblue.png");
                         @extend .image-role;
+                    }
+                    .role-label {
+                        color: #fff;
+                        padding-top: 25px;
+                        font-size: 20px;
                     }
 
                     &.selected {
@@ -60,6 +65,11 @@
                         .interviewer-image {
                             background-image: url("/lib/img/intwhite.png");
                             @extend .image-role;
+                        }
+                        .role-label {
+                            color: $accentColor;
+                            padding-top: 25px;
+                            font-size: 20px;
                         }
                     }
                 img {
