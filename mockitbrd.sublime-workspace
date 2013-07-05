@@ -4,52 +4,112 @@
 		"selected_items":
 		[
 			[
-				"border",
-				"border-radius"
-			],
-			[
-				"fe",
-				"fadeOut"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"ri",
-				"right"
-			],
-			[
-				"black",
-				"black-overlay"
-			],
-			[
-				"user-",
-				"user-profile-pic"
-			],
-			[
-				"prof",
-				"profilePic"
+				"post",
+				"post_id"
 			],
 			[
 				"pro",
-				"profilePic"
+				"profile_user_id"
 			],
 			[
-				"A",
-				"AppBuildFunctions"
+				"up",
+				"uploads"
 			],
 			[
-				"dis",
-				"displayName"
+				"profi",
+				"profile_user_id"
 			],
 			[
-				"M",
-				"MckitBrdUser"
+				"user",
+				"user_id"
+			],
+			[
+				"tex",
+				"text-shadow"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"i",
+				"i	Tag"
+			],
+			[
+				"prof",
+				"profile_image_small"
+			],
+			[
+				"log",
+				"loggedInUser"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"cat",
+				"catArray"
+			],
+			[
+				"vi",
+				"visits"
+			],
+			[
+				"cartIt",
+				"cartItems"
+			],
+			[
+				"car",
+				"cartItems"
+			],
+			[
+				"item",
+				"itemsToRemove"
+			],
+			[
+				"pric",
+				"priceSheetItemID"
+			],
+			[
+				"remov",
+				"removableItems"
+			],
+			[
+				"remo",
+				"removableItems"
+			],
+			[
+				"ca",
+				"catArray"
+			],
+			[
+				"cart",
+				"cartContents"
+			],
+			[
+				"login",
+				"loginPaneContact"
+			],
+			[
+				"domC",
+				"domClass"
+			],
+			[
+				"domCla",
+				"dom-class"
+			],
+			[
+				"ga",
+				"gallery"
+			],
+			[
+				"galler",
+				"galleryType"
+			],
+			[
+				"do",
+				"dojo"
 			],
 			[
 				"json",
@@ -58,10 +118,6 @@
 			[
 				"use",
 				"userdetails"
-			],
-			[
-				"user",
-				"username"
 			],
 			[
 				"er",
@@ -78,6 +134,10 @@
 			[
 				"Mo",
 				"Modernizr"
+			],
+			[
+				"back",
+				"background-image"
 			],
 			[
 				"font",
@@ -98,10 +158,6 @@
 			[
 				"core",
 				"coreFx"
-			],
-			[
-				"ga",
-				"galleryStatus"
 			],
 			[
 				"show",
@@ -126,10 +182,6 @@
 			[
 				"t",
 				"txt"
-			],
-			[
-				"item",
-				"itemInfo"
 			],
 			[
 				"thu",
@@ -164,20 +216,12 @@
 				"thumbTrack"
 			],
 			[
-				"remov",
-				"removedWidget"
-			],
-			[
 				"ge",
 				"getSelectedThumbnail"
 			],
 			[
 				"thumbW",
 				"thumbWidget"
-			],
-			[
-				"tex",
-				"text-accent-color"
 			],
 			[
 				"off",
@@ -194,6 +238,10 @@
 			[
 				"di",
 				"disProd"
+			],
+			[
+				"dis",
+				"disCat"
 			],
 			[
 				"fun",
@@ -228,10 +276,6 @@
 				"totalToBeAdded"
 			],
 			[
-				"domC",
-				"domConstruct"
-			],
-			[
 				"pri",
 				"priceSheetItemWidget"
 			],
@@ -260,10 +304,6 @@
 				"layeredImage"
 			],
 			[
-				"remo",
-				"removedThumb"
-			],
-			[
 				"thumWd",
 				"ThumbnailWidget"
 			],
@@ -286,10 +326,6 @@
 			[
 				"ite",
 				"itemName"
-			],
-			[
-				"car",
-				"cartItem"
 			],
 			[
 				"display",
@@ -322,10 +358,6 @@
 			[
 				"price",
 				"priceSheetProduct"
-			],
-			[
-				"ca",
-				"cartItemTitle"
 			],
 			[
 				"ti",
@@ -378,10 +410,6 @@
 			[
 				"de",
 				"description"
-			],
-			[
-				"cart",
-				"cartItems"
 			],
 			[
 				"Arr",
@@ -486,34 +514,6 @@
 			[
 				"pag",
 				"pageLink"
-			],
-			[
-				"check",
-				"checkMark"
-			],
-			[
-				"productSe",
-				"productSelectedCheckMarkNode"
-			],
-			[
-				"se",
-				"selectedProduct"
-			],
-			[
-				"All",
-				"allSelected"
-			],
-			[
-				"prd",
-				"productsSelected"
-			],
-			[
-				"cu",
-				"currentImageHolderBodyNode"
-			],
-			[
-				"gal",
-				"galleryKeywordResult"
 			]
 		]
 	},
@@ -576,50 +576,78 @@
 	},
 	"file_history":
 	[
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/main.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/account/login.php",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/candidate/landing/index.php",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/controllers/AppBuilder.js",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/user/landing/index.php",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/sass/modules/navs.scss",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/sass/modules/login.scss",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/index.php",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/auth/login.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/sass/screen.scss",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/controllers/AppController.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/sass/helpers/variables.scss",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/helpers/uiHelper.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/helpers/base.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/mockitbrd.sublime-workspace",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/index.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/helpers/errors.js",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/models/funcs.php",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/widgets/UserProfileNav.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/widgets/UserProfilePic.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/widgets/templates",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/AppController.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/controllers/appController.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/helpers/try-catch.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/helpers/mckitcore.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/account/register.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/controllers/navControls.js",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/models/config.php",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/BehaviorUiHelper.js",
+		"/Users/fashiru/Downloads/Facebook Wall Script - wtfdiary/fbwall/load_messages.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/admin/admin_users.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/account/login.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/controllers/wallControls.js",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/user/postWallPost.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/sass/modules/userwall.scss",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/sass/modules/buttons.scss",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/sass/screen.scss",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/models/class.newuser.php",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/base.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqcore/urlHelper.js",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/account/register.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/account/uploadImage.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/index.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/controllers/imageUploader.js",
+		"/Users/fashiru/Downloads/Facebook Wall Script - wtfdiary/fbwall/message_ajax.php",
+		"/Users/fashiru/Downloads/Facebook Wall Script - wtfdiary/fbwall/includes/FbWall.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/models/class.newpost.php",
+		"/Users/fashiru/Downloads/Facebook Wall Script - wtfdiary/fbwall/includes/db.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/controllers/AppBuilder.js",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/models/class.newPost.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/helpers/setProps.js",
+		"/Volumes/www.ba4c.com/public_html/events.html",
+		"/Volumes/www.ba4c.com/public_html/signupdone-weeklong.html",
+		"/Volumes/www.ba4c.com/public_html/signupdone-weeklongpaid.html",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/user/profile/index.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/admin/admin_configuration.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/candidate/landing/index.php",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqcore/main.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqui/core/_UIHelper.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/IQCartBehavioralRemovalPanel.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/IQCartItemForRemoval.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/less/IQCartItemForRemoval.less",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/IQCartItemRemovePanel.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/less/IQCartBehavioralRemovalPanel.less",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/vando.sublime-project",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/less/all.less",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/DesktopCartItemBasicInfoWidget.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/templates/IQCartBehavioralRemovalPanel.html",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/less/IQCartItemRemovePanel.less",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/LoginPanel.js",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqcore/errors.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/desktop/ui/less/ButtonOverlayThumbnailUiLayer.less",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/desktop/ui/ButtonOverlayThumbnailUiLayer.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/dijit/themes/vando/vando.less",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqcore/iqcore.profile.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqcore/try-catch.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/templates/base.xhtml",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/base.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/index.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/templates/LoginPanel.html",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/AppController.js",
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqcore/urlHelper.js",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqcore/requestHelper.js",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqdata/Customer.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/IQCartItemRemovePanel.js",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/main.js",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/models/header.php",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/models/config.php",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/candidate/account.php",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/admin/account.php",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/left-nav.php",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/candidate/user_settings.php",
+		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/sass/helpers/variables.scss",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/desktop/ui/DesktopFavoritesTray.js",
-		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/sass/modules/buttons.scss",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/base.js",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqdata/IQObject.js",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqdata/IQObjectManager.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqcore/main.js",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/js/helpers/domReady.js",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/sass/buttons.scss",
 		"/Volumes/Mockit Brd/public_html/mockitbrd/lib/sass/variables.scss",
@@ -629,7 +657,6 @@
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqui/core/ThumbnailContainerBase.js",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqui/core/TruncatedTextWidget.js",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/src/com/imagequix/vando/RestController.java",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/LoginPanel.js",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/less/WelcomePanel.less",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/templates/WelcomePanel.html",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/less/LoginPanel.less",
@@ -640,14 +667,12 @@
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/less/IQNotice.less",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/WelcomePanel.js",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/IQNotice.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/dijit/themes/vando/vando.less",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/common/_responsive/_thumbnails.less",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/dijit/themes/vando/Dialog.less",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/common/_responsive/_grid.less",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqui/core/less/ThumbnailWidget.less",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/dijit/themes/vando/ThumbnailWidget.less",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/desktop/ui/DesktopMiniCartItem.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/DesktopCartItemBasicInfoWidget.js",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/desktop/ui/less/DesktopMiniCartItem.less",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/less/DesktopSingleCartItemWidget.less",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/less/DesktopCartItemBasicInfoWidget.less",
@@ -678,32 +703,7 @@
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/PriceSheetCategoryWidget.js",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/PriceSheetItemWidget.js",
 		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/desktop/ui/DesktopCartItemQtyWidget.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/BrowseProductsStep.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/ui/_BrowseProductsWidget.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/templates/PriceSheetItemWidget.html",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/ui/less/PriceSheetItemWidget.less",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/dijit/themes/vando/PriceSheetItemWidget.less",
-		"/Users/fashiru/Desktop/cs/JavaScriptCodeSample-FaraAshiru/CustomerListPageItemWidget.js",
-		"/Users/fashiru/Desktop/cs/JavaScriptCodeSample-FaraAshiru/CustomerListPageWidget.js",
-		"/Users/fashiru/Desktop/cs/JavaScriptCodeSample-FaraAshiru/IQMessage.js",
-		"/Users/fashiru/Desktop/cs/JavaScriptCodeSample-FaraAshiru/PromptForKeywordPanel.js",
-		"/Users/fashiru/Desktop/cs/JavaScriptCodeSample-FaraAshiru/TruncatedTextWidget.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/ProductConfigurationStep.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/dijit/themes/vando/CatalogProductGroupPhotoMarker.less",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/product/ui/templates/CatalogProductGroupPhotoMarker.html",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/product/ui/less/CatalogProductGroupPhotoMarker.less",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/product/ui/less/all.less",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/product/ui/less/CatalogProductEditor.less",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/dijit/themes/vando/NotificationsList.less",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/dijit/themes/vando/variables.less",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/dijit/themes/vando/Common.less",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/dijit/themes/vando/form/Common.less",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/dijit/themes/vando/form/Button.less",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/css/dijit/themes/vando/ProgressBar.less",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqui/core/StoreThumbnailSource.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqui/core/ThumbnailWidgetUiLayer.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/desktop/ui/ButtonOverlayThumbnailUiLayer.js",
-		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/iqui/core/ThumbnailWidget.js"
+		"/Users/fashiru/Development/workspace_IQ8/com.imagequix.vando/WebContent/resources/js/vando/pipeline/BrowseProductsStep.js"
 	],
 	"find":
 	{
@@ -726,10 +726,55 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"></",
-			"sniff",
-			"confirm",
-			"    \n",
+			"black",
+			"funcs.js",
+			"funcs",
+			"websiteUrl",
+			"fetchallusers",
+			"fetch",
+			"'];",
+			"fetchuserdetails",
+			"fetch",
+			"insert_id",
+			"inserted",
+			"ss",
+			"sii",
+			"sis",
+			"INSERT INTO",
+			"insert into",
+			"postT",
+			"insert",
+			"inset",
+			"userCakeAddUser",
+			"newuser",
+			"remove",
+			"delete",
+			"Babtist",
+			"update",
+			"loggedinUser",
+			"websiteUrl",
+			"candidate",
+			"ui",
+			"build",
+			"builf",
+			"helper",
+			"buildOkDialog",
+			"getcartitem",
+			"checkRes",
+			"priceSheetCategoryChanges",
+			"_showCategoryDisableConfirmationDialog",
+			"\"/usr/local/bin/ant\",",
+			"Defe",
+			"iqq",
+			"iq",
+			"iqq",
+			"data-dojo-props",
+			"iqcartitemremov",
+			"undone",
+			"remove",
+			"form",
+			"domS",
+			"hid",
 			"\"/usr/local/bin/ant\",",
 			"currentGallerySession",
 			"register",
@@ -808,52 +853,7 @@
 			"favorites",
 			"top",
 			"remove",
-			"removeChild",
-			"fx.",
-			"slideTo",
-			"observe",
-			"remove",
-			"set",
-			"removals",
-			"watch",
-			"ontainernode",
-			"group",
-			"favorites",
-			"removals",
-			"defaultThumbUiLayer",
-			"buyimage",
-			"butimage",
-			"case",
-			"button",
-			"this.containerno",
-			"createAndAddImageToContainer",
-			"toFront",
-			"onthumb",
-			"onThumbnailsChanged",
-			"change",
-			"counterNode",
-			"favorite",
-			"buttonClicked",
-			"\"Favorite",
-			"case: \"favorite",
-			"case \"add",
-			"dj_ie8",
-			"Iq.out.log",
-			".text-shadow",
-			"icon-folder",
-			"primaryButton",
-			"iqcombobox",
-			"php",
-			"cartitemremovepanel",
-			"iq.notify",
-			"iqnotify",
-			"primary-button",
-			"was removed",
-			"iqnotice",
-			"IQNotify",
-			"domatt",
-			"500",
-			"thumbSize"
+			"removeChild"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -861,6 +861,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Baptist",
 			"\"/usr/bin/ant\",",
 			"00a6f3",
 			"Fara Ashiru",
@@ -880,12 +881,17 @@
 		],
 		"reverse": true,
 		"show_context": true,
-		"use_buffer2": true,
+		"use_buffer2": false,
 		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
+		{
+			"sheets":
+			[
+			]
+		},
 		{
 			"sheets":
 			[
@@ -909,11 +915,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -927,6 +940,10 @@
 	{
 		"height": 391.0
 	},
+	"output.find_results":
+	{
+		"height": 94.0
+	},
 	"replace":
 	{
 		"height": 64.0
@@ -938,12 +955,80 @@
 		"selected_items":
 		[
 			[
+				"iqbe",
+				"WebContent/resources/js/vando/pipeline/desktop/ui/IQCartBehavioralRemovalPanel.js"
+			],
+			[
+				"behav",
+				"WebContent/resources/js/vando/ui/BehaviorUiHelper.js"
+			],
+			[
 				"func",
 				"lib/models/funcs.php"
 			],
 			[
-				"login.php",
-				"account/login.php"
+				"beh",
+				"Vando/WebContent/resources/js/vando/ui/BehaviorUiHelper.js"
+			],
+			[
+				"main",
+				"WebContent/resources/js/iqcore/main.js"
+			],
+			[
+				"iqcari",
+				"WebContent/resources/js/vando/pipeline/desktop/ui/IQCartItemForRemoval.js"
+			],
+			[
+				"iqcart",
+				"WebContent/resources/js/vando/pipeline/desktop/ui/IQCartItemRemovePanel.js"
+			],
+			[
+				"omain",
+				"WebContent/resources/js/iqcore/main.js"
+			],
+			[
+				"loginp",
+				"WebContent/resources/js/vando/ui/LoginPanel.js"
+			],
+			[
+				"erro",
+				"WebContent/resources/js/iqcore/errors.js"
+			],
+			[
+				"app",
+				"WebContent/resources/js/vando/AppController.js"
+			],
+			[
+				"inde",
+				"WebContent/resources/js/index.js"
+			],
+			[
+				"beha",
+				"WebContent/resources/js/vando/ui/BehaviorUiHelper.js"
+			],
+			[
+				"iq-",
+				"WebContent/resources/js/iqcore/try-catch.js"
+			],
+			[
+				"iqcore",
+				"WebContent/resources/js/iqcore/iqcore.profile.js"
+			],
+			[
+				"base.",
+				"WebContent/templates/base.xhtml"
+			],
+			[
+				"base",
+				"WebContent/resources/js/base.js"
+			],
+			[
+				"vando.le",
+				"WebContent/resources/css/dijit/themes/vando/vando.less"
+			],
+			[
+				"buttonove",
+				"WebContent/resources/js/vando/desktop/ui/ButtonOverlayThumbnailUiLayer.js"
 			],
 			[
 				"buttonoverlaythumbnailuil",
@@ -1032,10 +1117,6 @@
 			[
 				"thumnails.le",
 				"WebContent/resources/css/common/_responsive/_thumbnails.less"
-			],
-			[
-				"vando.le",
-				"WebContent/resources/css/dijit/themes/vando/vando.less"
 			],
 			[
 				"desktoba",
@@ -1258,10 +1339,6 @@
 				"WebContent/resources/js/vando/VandoGallerySessionController.js"
 			],
 			[
-				"app",
-				"WebContent/resources/js/vando/AppController.js"
-			],
-			[
 				"posit",
 				"WebContent/resources/js/vando/ui/less/GalleryPositionBar.less"
 			],
@@ -1388,66 +1465,6 @@
 			[
 				"grid",
 				"WebContent/resources/css/common/_responsive/_grid.less"
-			],
-			[
-				"desktoppac",
-				"WebContent/resources/js/vando/pipeline/desktop/ui/less/DesktopPackageCartItemWidget.less"
-			],
-			[
-				"desktopsing",
-				"WebContent/resources/js/vando/pipeline/desktop/ui/less/DesktopSingleCartItemWidget.less"
-			],
-			[
-				"basic",
-				"WebContent/resources/js/vando/pipeline/desktop/ui/DesktopCartItemBasicInfoWidget.js"
-			],
-			[
-				"desktopca",
-				"WebContent/resources/js/vando/pipeline/desktop/ui/DesktopCartWidget.js"
-			],
-			[
-				"desktopsin",
-				"WebContent/resources/js/vando/pipeline/desktop/ui/DesktopSingleCartItemWidget.js"
-			],
-			[
-				"trunca",
-				"WebContent/resources/js/iqui/core/less/TruncatedTextWidget.less"
-			],
-			[
-				"minicarti",
-				"WebContent/resources/js/vando/desktop/ui/DesktopMiniCartItem.js"
-			],
-			[
-				"session",
-				"WebContent/resources/js/iq/vando/VandoGallerySessionController.js"
-			],
-			[
-				"index.j",
-				"WebContent/resources/js/index.js"
-			],
-			[
-				"inde",
-				"WebContent/resources/js/index.js"
-			],
-			[
-				"vandolayout",
-				"WebContent/resources/js/iq/vando/layout/templates/DesktopVandoLayout.html"
-			],
-			[
-				"actionme",
-				"WebContent/resources/js/iq/vando/pipeline/desktop/ui/less/DesktopCartItemActionMenuWidget.less"
-			],
-			[
-				"iqcar",
-				"WebContent/resources/js/iq/vando/pipeline/desktop/ui/less/IQCartItemForRemoval.less"
-			],
-			[
-				"iqcartirem",
-				"WebContent/resources/js/iq/vando/pipeline/desktop/ui/IQCartItemForRemoval.js"
-			],
-			[
-				"iqcart",
-				"WebContent/resources/js/iq/vando/pipeline/desktop/ui/IQCartItemRemovePanel.js"
 			]
 		],
 		"width": 0.0
