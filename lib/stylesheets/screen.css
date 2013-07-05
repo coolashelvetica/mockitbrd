@@ -931,7 +931,7 @@ body {
 
 /* line 93, ../sass/screen.scss */
 .register-banner {
-  background-image: url("/lib/img/registerbg.jpg");
+  background-image: url("/lib/img/signupbg.jpg");
   height: 450px;
   overflow: hidden;
 }
