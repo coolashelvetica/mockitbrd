@@ -91,3 +91,14 @@ body {
     }
 }
 
+.register-banner {
+	@extend .banner;
+	background-image: url("/lib/img/signupbg.jpg");
+	height: 800px;
+	overflow: hidden;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
