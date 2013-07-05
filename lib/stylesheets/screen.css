@@ -450,10 +450,14 @@ input:-moz-placeholder {
   display: inline-block;
   cursor: pointer;
 }
-
-/* line 27, ../sass/modules/register.scss */
+/* line 26, ../sass/modules/register.scss */
 .register-role label img {
   padding: 3px;
+}
+
+/* line 31, ../sass/modules/register.scss */
+.switch {
+  display: none;
 }
 
 /* line 9, ../sass/helpers/variables.scss */

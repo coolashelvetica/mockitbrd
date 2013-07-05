@@ -22,8 +22,12 @@
 .register-role label {
     display: inline-block;
     cursor: pointer;
+
+    img {
+         padding: 3px;
+    }
 }
 
-.register-role label img {
-    padding: 3px;
+.switch {
+    display:none;
 }
