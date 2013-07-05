@@ -229,3 +229,13 @@
 .register-step-1 .register-step-box .register-role label img {
   padding: 3px;
 }
+
+/* line 107, ../../sass/modules/register.scss */
+a.loginButton {
+  color: #06aaf7;
+  cursor: pointer;
+}
+/* line 110, ../../sass/modules/register.scss */
+a.loginButton:hover {
+  color: #fff;
+}

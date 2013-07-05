@@ -102,3 +102,13 @@
         }
     }
 }
+
+a {
+    &.loginButton {
+        color:$accentColor;
+        cursor:pointer;
+        &:hover {
+            color:#fff;
+        }
+    }
+}

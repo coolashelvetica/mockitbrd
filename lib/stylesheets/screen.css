@@ -654,6 +654,16 @@ input:-moz-placeholder {
   padding: 3px;
 }
 
+/* line 107, ../sass/modules/register.scss */
+a.loginButton {
+  color: #06aaf7;
+  cursor: pointer;
+}
+/* line 110, ../sass/modules/register.scss */
+a.loginButton:hover {
+  color: #fff;
+}
+
 /* line 9, ../sass/helpers/variables.scss */
 .clear-both {
   clear: both;
