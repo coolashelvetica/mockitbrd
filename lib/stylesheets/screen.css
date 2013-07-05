@@ -574,7 +574,7 @@ input:-moz-placeholder {
 }
 /* line 28, ../sass/modules/register.scss */
 .register-step-1 .register-step-box h1 {
-  color: #06aaf7;
+  color: #fff;
   font-size: 20px;
   margin-bottom: 20px;
   font-weight: 100;

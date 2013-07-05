@@ -178,8 +178,8 @@ if(!empty($_POST))
         <header class="register-banner">
             <div class="register-step-1">
             	<div class="register-step-box">
+            		<h1>Set up your account</h1>
             		<div class="register-progress">
-            			<h1>Set up your account</h1>
             			 <section class="container">
 						    <input type="radio" class="radio" name="progress" value="twentyfive" id="twentyfive" checked>
 						    <label for="twentyfive" class="label">Step 1</label>
@@ -209,6 +209,9 @@ if(!empty($_POST))
 					    <label for="Candidate">
 					    	<div class="candidate-image"></div>
 					    	<div class="role-label">Candidate</div>
+					</div>
+					<div class="step-box-bottom">
+						<span>Already have an account? Login.</span>
 					</div>
             	</div>
             </div>
