@@ -1,106 +1,1162 @@
-/*
-Syntax error: Invalid CSS after "  box-shadow": expected "{", was "(inset 0 1px 2p..."
-        on line 17 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss
-        from line 3 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss
-        from line 10 of /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-Backtrace:
-/Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss:17
-/Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss:3
-/Users/fashiru/prj/mockitbrd/lib/sass/screen.scss:10
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1148:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1084:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1079:in `tok!'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:534:in `block'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:591:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `rethrow'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:554:in `block_child'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:546:in `block_contents'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:535:in `block'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:591:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1122:in `rethrow'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:554:in `block_child'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:546:in `block_contents'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:535:in `block'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:529:in `ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:553:in `block_child'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:543:in `block_contents'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:82:in `stylesheet'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:27:in `parse'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/engine.rb:342:in `_to_tree'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/engine.rb:274:in `to_tree'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:225:in `visit_import'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:227:in `map'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/root_node.rb:20:in `render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/engine.rb:315:in `_render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/engine.rb:262:in `render'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Library/Ruby/Site/1.8/rubygems/core_ext/kernel_require.rb:45:in `to_proc'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:30
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:44:in `call'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:44
-/usr/bin/compass:23:in `load'
-/usr/bin/compass:23
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"  box-shadow\": expected \"{\", was \"(inset 0 1px 2p...\"\A         on line 17 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss\A         from line 3 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss\A         from line 10 of /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss"; }
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/helpers/variables.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 13, ../sass/helpers/variables.scss */
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 9, ../sass/helpers/variables.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 13, ../sass/helpers/variables.scss */
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 3, ../sass/modules/buttons.scss */
+.big-accent {
+  width: 250px;
+  height: 75px;
+  margin-top: 35px;
+  background-color: #06aaf7;
+  color: #fff;
+  text-shadow: 2px 2px #0599f5;
+  letter-spacing: -3px;
+  border: 1px solid #0599f5;
+  box-shadow: 0px 0px 2px #0599f5;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+/* line 17, ../sass/modules/buttons.scss */
+.big-accent:hover {
+  background-color: #07b6f8;
+}
+/* line 21, ../sass/modules/buttons.scss */
+.big-accent:active {
+  box-shadow: inset 0px 0px 3px #0599f5;
+}
+/* line 25, ../sass/modules/buttons.scss */
+.big-accent .buttonLeft {
+  width: 145px;
+  height: 75px;
+  text-align: right;
+  border-rigth: 1px solid #07b6f8;
+}
+/* line 31, ../sass/modules/buttons.scss */
+.big-accent .buttonLeft .title {
+  font-size: 40px;
+}
+/* line 35, ../sass/modules/buttons.scss */
+.big-accent .buttonLeft .lede {
+  margin-top: -10px;
+  font-size: 20px;
+  font-weight: 100;
+}
+/* line 42, ../sass/modules/buttons.scss */
+.big-accent .buttonRight {
+  width: 75px;
+  height: 75px;
+  padding-top: 8px;
+  border-left: 1px solid #0599f5;
+}
+/* line 48, ../sass/modules/buttons.scss */
+.big-accent .buttonRight i {
+  font-size: 50px;
+}
+
+/* line 54, ../sass/modules/buttons.scss */
+.medium-accent {
+  width: 140px;
+  height: 45px;
+  margin-top: 35px;
+  background-color: #06aaf7;
+  color: #fff;
+  text-shadow: 2px 2px #0599f5;
+  letter-spacing: -3px;
+  border: 1px solid #0599f5;
+  box-shadow: 0px 0px 2px #0599f5;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+/* line 68, ../sass/modules/buttons.scss */
+.medium-accent:hover {
+  background-color: #07b6f8;
+}
+/* line 72, ../sass/modules/buttons.scss */
+.medium-accent:active {
+  box-shadow: inset 0px 0px 3px #0599f5;
+}
+/* line 76, ../sass/modules/buttons.scss */
+.medium-accent .buttonLeft {
+  padding-left: 10px;
+  height: 45px;
+  text-align: right;
+  border-rigth: 1px solid #07b6f8;
+}
+/* line 82, ../sass/modules/buttons.scss */
+.medium-accent .buttonLeft .title {
+  font-size: 25px;
+  line-height: 40px;
+}
+/* line 87, ../sass/modules/buttons.scss */
+.medium-accent .buttonLeft .lede {
+  margin-top: -10px;
+  font-size: 20px;
+  font-weight: 100;
+}
+/* line 94, ../sass/modules/buttons.scss */
+.medium-accent .buttonRight {
+  width: 40px;
+  height: 45px;
+  padding-top: 8px;
+  border-left: 1px solid #0599f5;
+}
+/* line 100, ../sass/modules/buttons.scss */
+.medium-accent .buttonRight i {
+  font-size: 30px;
+  line-height: 25px;
+}
+
+/* line 107, ../sass/modules/buttons.scss */
+.small-accent {
+  width: 90px;
+  height: 45px;
+  margin-top: 35px;
+  background-color: #06aaf7;
+  color: #fff;
+  text-shadow: 2px 2px #0599f5;
+  letter-spacing: -3px;
+  border: 1px solid #0599f5;
+  box-shadow: 0px 0px 2px #0599f5;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+/* line 121, ../sass/modules/buttons.scss */
+.small-accent:hover {
+  background-color: #07b6f8;
+}
+/* line 125, ../sass/modules/buttons.scss */
+.small-accent:active {
+  box-shadow: inset 0px 0px 3px #0599f5;
+}
+/* line 129, ../sass/modules/buttons.scss */
+.small-accent .buttonLeft {
+  padding-left: 10px;
+  height: 45px;
+  text-align: right;
+}
+/* line 134, ../sass/modules/buttons.scss */
+.small-accent .buttonLeft .title {
+  font-size: 25px;
+  line-height: 40px;
+}
+/* line 139, ../sass/modules/buttons.scss */
+.small-accent .buttonLeft .lede {
+  margin-top: -10px;
+  font-size: 20px;
+  font-weight: 100;
+}
+/* line 146, ../sass/modules/buttons.scss */
+.small-accent .buttonRight {
+  width: 30px;
+  height: 45px;
+  padding-top: 8px;
+}
+/* line 151, ../sass/modules/buttons.scss */
+.small-accent .buttonRight i {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/* line 158, ../sass/modules/buttons.scss */
+.big-social {
+  font-size: 45px;
+}
+/* line 160, ../sass/modules/buttons.scss */
+.big-social li {
+  display: inline-block;
+  padding: 20px;
+  padding-left: 0px;
+  cursor: pointer;
+}
+/* line 166, ../sass/modules/buttons.scss */
+.big-social li:hover {
+  color: #06aaf7;
+}
+
+/* line 174, ../sass/modules/buttons.scss */
+.super-small-accent {
+  width: 50px;
+  height: 28px;
+  background-color: #06aaf7;
+  color: #fff;
+  text-shadow: 2px 2px #0599f5;
+  letter-spacing: -2px;
+  border: 1px solid #0599f5;
+  box-shadow: 0px 0px 2px #0599f5;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+/* line 187, ../sass/modules/buttons.scss */
+.super-small-accent:hover {
+  background-color: #07b6f8;
+}
+/* line 191, ../sass/modules/buttons.scss */
+.super-small-accent:active {
+  box-shadow: inset 0px 0px 3px #0599f5;
+}
+/* line 195, ../sass/modules/buttons.scss */
+.super-small-accent .buttonLeft {
+  padding-left: 5px;
+  text-align: right;
+}
+/* line 199, ../sass/modules/buttons.scss */
+.super-small-accent .buttonLeft .title {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* line 9, ../sass/helpers/variables.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 13, ../sass/helpers/variables.scss */
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 4, ../sass/modules/login.scss */
+::-webkit-input-placeholder {
+  font-family: homizio;
+  font-weight: 100;
+  padding-left: 5px;
+}
+
+/* line 10, ../sass/modules/login.scss */
+::-moz-placeholder {
+  font-family: homizio;
+  font-weight: 100;
+  padding-left: 5px;
+}
+
+/* firefox 19+ */
+/* line 16, ../sass/modules/login.scss */
+:-ms-input-placeholder {
+  font-family: homizio;
+  font-weight: 100;
+  padding-left: 5px;
+}
+
+/* ie */
+/* line 22, ../sass/modules/login.scss */
+input:-moz-placeholder {
+  font-family: homizio;
+  font-weight: 100;
+  padding-left: 5px;
+}
+
+/* line 27, ../sass/modules/login.scss */
+.overlay, .black-overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+}
+
+/* line 36, ../sass/modules/login.scss */
+.black-overlay {
+  display: none;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+/* line 43, ../sass/modules/login.scss */
+.popUp-box, .login-box, .settings-box {
+  text-align: center;
+  font-family: homizio;
+  position: absolute;
+  top: -60%;
+  left: 30%;
+  width: 550px;
+  height: 300px;
+  padding: 16px;
+  background-color: #ededed;
+  z-index: 1002;
+  overflow: hidden;
+}
+/* line 56, ../sass/modules/login.scss */
+.popUp-box h1, .login-box h1, .settings-box h1 {
+  font-size: 24px;
+  font-weight: 100;
+  color: #8b8b8b;
+}
+/* line 62, ../sass/modules/login.scss */
+.popUp-box .popUp-box-x-close, .login-box .popUp-box-x-close, .settings-box .popUp-box-x-close {
+  float: right;
+  font-size: 19px;
+  color: #8b8b8b;
+  cursor: pointer;
+}
+/* line 68, ../sass/modules/login.scss */
+.popUp-box .popUp-box-x-close:hover, .login-box .popUp-box-x-close:hover, .settings-box .popUp-box-x-close:hover {
+  color: #06aaf7;
+}
+
+/* line 76, ../sass/modules/login.scss */
+.login-box .remember-me {
+  margin-left: 35px;
+  font-size: 16px;
+}
+/* line 80, ../sass/modules/login.scss */
+.login-box input[type="text"], .login-box input[type="password"] {
+  font-size: 20px;
+  height: 35px;
+  width: 50%;
+  margin-top: 35px;
+  padding-left: 15px;
+  font-family: homizio;
+  font-weight: 100;
+}
+
+/* line 92, ../sass/modules/login.scss */
+.settings-box {
+  width: 700px;
+  height: 500px;
+}
+
+/* line 9, ../sass/helpers/variables.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 13, ../sass/helpers/variables.scss */
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 1, ../sass/modules/steps.scss */
+.register-progress {
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       http://css-tricks.com/webkit-sibling-bug/
+   */
+}
+/* line 2, ../sass/modules/steps.scss */
+.register-progress .container {
+  margin: 80px auto;
+  width: 640px;
+  text-align: center;
+}
+/* line 7, ../sass/modules/steps.scss */
+.register-progress .container .progress {
+  margin: 0 auto;
+  width: 400px;
+}
+/* line 12, ../sass/modules/steps.scss */
+.register-progress .progress {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+/* line 20, ../sass/modules/steps.scss */
+.register-progress .progress-bar {
+  position: relative;
+  height: 16px;
+  border-radius: 4px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+/* line 35, ../sass/modules/steps.scss */
+.register-progress .progress-bar:before, .register-progress .progress-bar:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* line 42, ../sass/modules/steps.scss */
+.register-progress .progress-bar:before {
+  bottom: 0;
+  background: url("/lib/img/stripes.png") 0 0 repeat;
+  border-radius: 4px 4px 0 0;
+}
+/* line 47, ../sass/modules/steps.scss */
+.register-progress .progress-bar:after {
+  z-index: 2;
+  bottom: 45%;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+/* line 63, ../sass/modules/steps.scss */
+.register-progress #five:checked ~ .progress > .progress-bar {
+  width: 5%;
+  background-color: #f63a0f;
+}
+/* line 68, ../sass/modules/steps.scss */
+.register-progress #twentyfive:checked ~ .progress > .progress-bar {
+  width: 25%;
+  background-color: #f27011;
+}
+/* line 73, ../sass/modules/steps.scss */
+.register-progress #fifty:checked ~ .progress > .progress-bar {
+  width: 50%;
+  background-color: #f2b01e;
+}
+/* line 78, ../sass/modules/steps.scss */
+.register-progress #seventyfive:checked ~ .progress > .progress-bar {
+  width: 75%;
+  background-color: #f2d31b;
+}
+/* line 83, ../sass/modules/steps.scss */
+.register-progress #onehundred:checked ~ .progress > .progress-bar {
+  width: 100%;
+  background-color: #86e01e;
+}
+/* line 88, ../sass/modules/steps.scss */
+.register-progress .radio {
+  display: none;
+}
+/* line 92, ../sass/modules/steps.scss */
+.register-progress .label {
+  display: inline-block;
+  margin: 0 5px 20px;
+  padding: 3px 8px;
+  color: #aaa;
+  text-shadow: 0 1px black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/* line 101, ../sass/modules/steps.scss */
+.register-progress .radio:checked + .label {
+  color: white;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* line 5, ../sass/modules/register.scss */
+.image-role, .register-step-1 .register-step-box .register-role label .candidate-image, .register-step-1 .register-step-box .register-role label .interviewer-image, .register-step-1 .register-step-box .register-role label.selected .candidate-image, .register-step-1 .register-step-box .register-role label.selected .interviewer-image {
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* line 15, ../sass/modules/register.scss */
+.register-step-1 {
+  width: 700px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 10%;
+  text-align: center;
+}
+/* line 22, ../sass/modules/register.scss */
+.register-step-1 .register-step-box {
+  background-image: url("/lib/img/stepboxbg.png");
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  background-position: 0px;
+}
+/* line 29, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-progress {
+  color: #fff;
+  font-weight: 100;
+}
+/* line 32, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-progress h1 {
+  font-size: 24px;
+  padding-top: 30px;
+}
+/* line 37, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role {
+  margin-left: 50px;
+}
+/* line 39, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role .input_hidden {
+  position: absolute;
+  left: -9999px;
+}
+/* line 43, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label {
+  display: inline-block;
+  cursor: pointer;
+  width: 170px;
+  height: 170px;
+  background-color: #fff;
+  margin-right: 50px;
+}
+/* line 51, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label .candidate-image {
+  background-image: url("/lib/img/candblue.png");
+}
+/* line 56, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label .interviewer-image {
+  background-image: url("/lib/img/intblue.png");
+}
+/* line 60, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label .role-label {
+  color: #06aaf7;
+  padding-top: 25px;
+  font-size: 20px;
+}
+/* line 66, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label.selected {
+  background-color: #06aaf7;
+}
+/* line 69, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label.selected .candidate-image {
+  background-image: url("/lib/img/candwhite.png");
+}
+/* line 74, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label.selected .interviewer-image {
+  background-image: url("/lib/img/intwhite.png");
+}
+/* line 78, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label.selected .role-label {
+  color: #fff;
+  padding-top: 25px;
+  font-size: 20px;
+}
+/* line 84, ../sass/modules/register.scss */
+.register-step-1 .register-step-box .register-role label img {
+  padding: 3px;
+}
+
+/* line 9, ../sass/helpers/variables.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 13, ../sass/helpers/variables.scss */
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 3, ../sass/modules/navs.scss */
+.navigation, .public-nav, .private-nav {
+  width: 100%;
+  position: absolute;
+  box-shadow: 0px 0px 4px #000;
+}
+/* line 9, ../sass/modules/navs.scss */
+.navigation .logo-holder, .public-nav .logo-holder, .private-nav .logo-holder {
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+/* line 14, ../sass/modules/navs.scss */
+.navigation .logo-holder img, .public-nav .logo-holder img, .private-nav .logo-holder img {
+  width: 200px;
+}
+/* line 18, ../sass/modules/navs.scss */
+.navigation .nav, .public-nav .nav, .private-nav .nav {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10%;
+  margin-top: 30px;
+  float: right;
+}
+/* line 24, ../sass/modules/navs.scss */
+.navigation .nav .loginButton, .public-nav .nav .loginButton, .private-nav .nav .loginButton {
+  position: relative;
+  top: 25px;
+}
+/* line 28, ../sass/modules/navs.scss */
+.navigation .nav li, .public-nav .nav li, .private-nav .nav li {
+  cursor: pointer;
+  display: inline-block;
+  padding-right: 20px;
+}
+/* line 32, ../sass/modules/navs.scss */
+.navigation .nav li:hover, .public-nav .nav li:hover, .private-nav .nav li:hover {
+  color: #06aaf7;
+}
+
+/* line 38, ../sass/modules/navs.scss */
+.public-nav {
+  height: 150px;
+  background: rgba(255, 250, 250, 0.1);
+}
+
+/* line 44, ../sass/modules/navs.scss */
+.private-nav {
+  height: 90px;
+  background-color: #494848;
+}
+/* line 48, ../sass/modules/navs.scss */
+.private-nav .logo-holder {
+  position: absolute;
+  bottom: 10px;
+}
+
+/* line 55, ../sass/modules/navs.scss */
+.user-nav {
+  float: right;
+  width: 400px;
+  position: relative;
+}
+/* line 59, ../sass/modules/navs.scss */
+.user-nav .left {
+  height: 210px;
+  width: 170px;
+  display: inline;
+  float: left;
+}
+/* line 64, ../sass/modules/navs.scss */
+.user-nav .left .user-upload-button {
+  width: 150px;
+  height: 150px;
+  z-index: 1003;
+  line-height: 0;
+  font-size: 50px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "alpha(opacity=0)";
+  cursor: pointer;
+  _cursor: hand;
+  margin: 0;
+  padding: 0;
+}
+/* line 81, ../sass/modules/navs.scss */
+.user-nav .left .hover-overlay-icon {
+  border-radius: 100px;
+  cursor: pointer;
+  display: none;
+  width: 150px;
+  height: 160px;
+  position: absolute;
+  color: #06aaf7;
+  text-align: center;
+  font-size: 50px;
+  z-index: 10;
+  top: 4px;
+  left: 4px;
+  line-height: 145px;
+}
+/* line 96, ../sass/modules/navs.scss */
+.user-nav .left .user-pic-hover-overlay {
+  border: 2px solid #FFE;
+  cursor: pointer;
+  display: none;
+  width: 150px;
+  background: rgba(0, 0, 0, 0.7);
+  height: 150px;
+  position: absolute;
+  border-radius: 100px;
+  top: 3px;
+  left: 3px;
+}
+/* line 108, ../sass/modules/navs.scss */
+.user-nav .left .user-profile-pic {
+  cursor: pointer;
+  border-radius: 100px;
+  border: 6px solid #494848;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 2px 0px #000;
+  background-color: #fff;
+}
+/* line 117, ../sass/modules/navs.scss */
+.user-nav .left .user-profile-pic img {
+  width: 150px;
+  height: 150px;
+}
+/* line 121, ../sass/modules/navs.scss */
+.user-nav .left .user-profile-pic img.uploadergif {
+  width: 60px !important;
+  height: 60px !important;
+  left: 50px;
+  top: 50px;
+  position: absolute;
+}
+/* line 132, ../sass/modules/navs.scss */
+.user-nav .right {
+  cursor: pointer;
+  width: 175px;
+  height: 125px;
+  position: relative;
+  top: 55px;
+  right: 40px;
+  float: right;
+}
+/* line 140, ../sass/modules/navs.scss */
+.user-nav .right .user-display-name {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+}
+/* line 144, ../sass/modules/navs.scss */
+.user-nav .right .user-display-name:hover {
+  color: #06aaf7;
+}
+/* line 149, ../sass/modules/navs.scss */
+.user-nav .right .user-nav-dropdown-button {
+  margin-left: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+/* line 153, ../sass/modules/navs.scss */
+.user-nav .right .user-nav-dropdown-button:hover {
+  color: #06aaf7;
+}
+/* line 160, ../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown {
+  display: none;
+  width: 180px;
+  height: 250px;
+  position: absolute;
+  left: 185px;
+  background-color: #06aaf7;
+  top: 90px;
+  color: #fff;
+}
+/* line 171, ../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li {
+  display: block;
+  padding: 15px;
+  cursor: pointer;
+}
+/* line 176, ../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li.staticOption {
+  background-color: #02334a;
+}
+/* line 178, ../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li.staticOption i {
+  color: #06aaf7;
+  padding: 10px;
+}
+/* line 184, ../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li .user-icon {
+  display: inline-block;
+  width: 30px;
+}
+/* line 189, ../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li i {
+  color: #02334a;
+  font-size: 20px;
+}
+/* line 194, ../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li:hover {
+  background-color: #02334a;
+}
+/* line 195, ../sass/modules/navs.scss */
+.user-nav .user-nav-dropdown ul li:hover i {
+  color: #06aaf7;
+}
+
+/* line 9, ../sass/helpers/variables.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 13, ../sass/helpers/variables.scss */
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 3, ../sass/modules/userwall.scss */
+.user-wall-updater-holder {
+  width: 990px;
+  padding-left: 30px;
+}
+/* line 7, ../sass/modules/userwall.scss */
+.user-wall-updater-holder hr {
+  color: #ededed;
+}
+/* line 11, ../sass/modules/userwall.scss */
+.user-wall-updater-holder .user-profile-pic {
+  float: left;
+  cursor: pointer;
+  border-radius: 100px;
+  border: 6px solid #06aaf7;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 2px 0px #ededed;
+  background-color: #fff;
+}
+/* line 21, ../sass/modules/userwall.scss */
+.user-wall-updater-holder .user-profile-pic img {
+  width: 100px;
+  height: 100px;
+}
+/* line 27, ../sass/modules/userwall.scss */
+.user-wall-updater-holder .user-wall-updater {
+  float: right;
+}
+/* line 30, ../sass/modules/userwall.scss */
+.user-wall-updater-holder .user-wall-updater i {
+  text-shadow: -2px 0px 3px #ccc;
+}
+/* line 33, ../sass/modules/userwall.scss */
+.user-wall-updater-holder .user-wall-updater i.user-wall-box-arrow {
+  position: relative;
+  color: #fff;
+  font-size: 45px;
+  display: inline-block;
+  left: 5px;
+  top: -60px;
+}
+/* line 43, ../sass/modules/userwall.scss */
+.user-wall-updater-holder .user-wall-updater .user-wall-box {
+  width: 850px;
+  height: 150px;
+  background-color: #fff;
+  display: inline-block;
+  box-shadow: 0px 0px 4px #ccc;
+  position: relative;
+}
+/* line 51, ../sass/modules/userwall.scss */
+.user-wall-updater-holder .user-wall-updater .user-wall-box textarea {
+  position: absolute;
+  width: 94%;
+  padding: 22px;
+  border: none;
+  height: 52px;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: homizio;
+}
+/* line 61, ../sass/modules/userwall.scss */
+.user-wall-updater-holder .user-wall-updater .user-wall-box textarea:focus {
+  border: none;
+  outline: none;
+}
+/* line 67, ../sass/modules/userwall.scss */
+.user-wall-updater-holder .user-wall-updater .user-wall-box .user-wall-box-toolbar {
+  color: #494848;
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  bottom: 0px;
+  text-align: right;
+  border-top: 1px solid #eee;
+  padding: 10px;
+}
+/* line 76, ../sass/modules/userwall.scss */
+.user-wall-updater-holder .user-wall-updater .user-wall-box .user-wall-box-toolbar i {
+  text-shadow: none;
+}
+/* line 81, ../sass/modules/userwall.scss */
+.user-wall-updater-holder .user-wall-updater .user-wall-box .user-wall-box-toolbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+/* line 86, ../sass/modules/userwall.scss */
+.user-wall-updater-holder .user-wall-updater .user-wall-box .user-wall-box-toolbar ul li:hover {
+  color: #8b8b8b;
+}
+
+/* line 97, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box {
+  float: right;
+  margin-left: 50px;
+}
+/* line 101, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box i {
+  text-shadow: -2px 0px 3px #ccc;
+}
+/* line 104, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box i.user-wall-box-arrow {
+  position: relative;
+  color: #fff;
+  font-size: 45px;
+  display: inline-block;
+  left: 50px;
+  top: 85px;
+}
+/* line 114, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box .user-wall-box {
+  width: 600px;
+  height: 120px;
+  background-color: #fff;
+  display: inline-block;
+  box-shadow: 0px 0px 4px #ccc;
+  position: relative;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+/* line 124, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box .user-wall-box span {
+  padding: 25px;
+  position: absolute;
+}
+/* line 129, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box .user-wall-box textarea {
+  position: absolute;
+  width: 554px;
+  padding: 22px;
+  border: none;
+  height: 52px;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: homizio;
+}
+/* line 139, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box .user-wall-box textarea:focus {
+  border: none;
+  outline: none;
+}
+/* line 145, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box .user-wall-box .user-wall-box-toolbar {
+  color: #494848;
+  width: 580px;
+  height: 25px;
+  position: absolute;
+  bottom: 0px;
+  text-align: right;
+  border-top: 1px solid #eee;
+  padding: 10px;
+}
+/* line 154, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box .user-wall-box .user-wall-box-toolbar i {
+  text-shadow: none;
+}
+/* line 156, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box .user-wall-box .user-wall-box-toolbar i.icon-comment {
+  color: #06aaf7;
+}
+/* line 159, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box .user-wall-box .user-wall-box-toolbar i.icon-comment:hover {
+  color: #07b6f8;
+}
+/* line 166, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box .user-wall-box .user-wall-box-toolbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+/* line 171, ../sass/modules/userwall.scss */
+.allWallPosts .user-wall-box .user-wall-box .user-wall-box-toolbar ul li:hover {
+  color: #8b8b8b;
+}
+
+@font-face {
+  font-family: homizio;
+  src: url("../fonts/homizio.ttf");
+}
+
+/* line 19, ../sass/screen.scss */
+html {
+  height: 100%;
+  font-family: homizio;
+}
+
+/* line 24, ../sass/screen.scss */
+body {
+  height: 100%;
+  position: relative;
+  display: none;
+  background-color: #ededed;
+}
+
+/* line 31, ../sass/screen.scss */
+.banner, .home-banner, .landing-banner, .register-banner {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  margin: 0 0 60px;
+  border-bottom: 4px solid #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  zoom: 1;
+}
+
+/* line 48, ../sass/screen.scss */
+.home-banner {
+  background-image: url("/lib/img/banner-hw.jpg");
+  height: 525px;
+  padding-top: 175px;
+}
+/* line 54, ../sass/screen.scss */
+.home-banner .message {
+  float: left;
+  color: #fff;
+  padding-left: 50px;
+}
+/* line 59, ../sass/screen.scss */
+.home-banner .message h1 {
+  font-size: 90px;
+}
+/* line 63, ../sass/screen.scss */
+.home-banner .message p {
+  font-size: 20px;
+  width: 500px;
+  font-weight: 100;
+}
+/* line 70, ../sass/screen.scss */
+.home-banner .imac {
+  float: right;
+  background-image: url("/lib/img/imac.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 700px;
+  height: 500px;
+  position: relative;
+  bottom: -25px;
+  right: 50px;
+}
+
+/* line 83, ../sass/screen.scss */
+.landing-banner {
+  height: 450px;
+  overflow: hidden;
+}
+/* line 88, ../sass/screen.scss */
+.landing-banner img {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 94, ../sass/screen.scss */
+.register-banner {
+  background-image: url("/lib/img/signupbg.jpg");
+  height: 800px;
+  overflow: hidden;
+}
+/* line 100, ../sass/screen.scss */
+.register-banner img {
+  height: 100%;
+  width: 100%;
+}
