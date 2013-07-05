@@ -82,6 +82,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   user-select: none;
 }
 
+/* line 22, ../sass/helpers/variables.scss */
+.hide {
+  display: none;
+}
+
 /* line 9, ../sass/helpers/variables.scss */
 .clear-both {
   clear: both;
@@ -95,6 +100,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -moz-user-select: moz-none;
   -ms-user-select: none;
   user-select: none;
+}
+
+/* line 22, ../sass/helpers/variables.scss */
+.hide {
+  display: none;
 }
 
 /* line 3, ../sass/modules/buttons.scss */
@@ -319,6 +329,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   user-select: none;
 }
 
+/* line 22, ../sass/helpers/variables.scss */
+.hide {
+  display: none;
+}
+
 /* line 4, ../sass/modules/login.scss */
 ::-webkit-input-placeholder {
   font-family: homizio;
@@ -435,6 +450,11 @@ input:-moz-placeholder {
   -moz-user-select: moz-none;
   -ms-user-select: none;
   user-select: none;
+}
+
+/* line 22, ../sass/helpers/variables.scss */
+.hide {
+  display: none;
 }
 
 /* line 1, ../sass/modules/steps.scss */
@@ -563,8 +583,9 @@ input:-moz-placeholder {
   margin: 0 auto;
   margin-top: 10%;
   text-align: center;
+  color: #fff;
 }
-/* line 22, ../sass/modules/register.scss */
+/* line 23, ../sass/modules/register.scss */
 .register-steps .register-step-box {
   background-image: url("/lib/img/stepboxbg.png");
   width: 700px;
@@ -573,20 +594,26 @@ input:-moz-placeholder {
   background-position: 0px;
   position: relative;
 }
-/* line 29, ../sass/modules/register.scss */
-.register-steps .register-step-box .small-accent {
+/* line 30, ../sass/modules/register.scss */
+.register-steps .register-step-box .nextButton {
   float: right;
   right: 40px;
   bottom: -60px;
 }
-/* line 34, ../sass/modules/register.scss */
+/* line 35, ../sass/modules/register.scss */
+.register-steps .register-step-box .prevButton {
+  float: left;
+  left: 40px;
+  bottom: -60px;
+}
+/* line 40, ../sass/modules/register.scss */
 .register-steps .register-step-box h1 {
   color: #fff;
   font-size: 20px;
   margin-bottom: 20px;
   font-weight: 100;
 }
-/* line 40, ../sass/modules/register.scss */
+/* line 46, ../sass/modules/register.scss */
 .register-steps .register-step-box .step-box-bottom {
   position: absolute;
   bottom: 30px;
@@ -595,26 +622,26 @@ input:-moz-placeholder {
   font-weight: 100;
   left: 260px;
 }
-/* line 48, ../sass/modules/register.scss */
+/* line 54, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-progress {
   color: #fff;
   font-weight: 100;
 }
-/* line 51, ../sass/modules/register.scss */
+/* line 57, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-progress h1 {
   font-size: 24px;
   padding-top: 30px;
 }
-/* line 56, ../sass/modules/register.scss */
+/* line 62, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-role {
   margin-left: 50px;
 }
-/* line 58, ../sass/modules/register.scss */
+/* line 64, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-role .input_hidden {
   position: absolute;
   left: -9999px;
 }
-/* line 62, ../sass/modules/register.scss */
+/* line 68, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-role label {
   display: inline-block;
   cursor: pointer;
@@ -623,49 +650,49 @@ input:-moz-placeholder {
   background-color: #fff;
   margin-right: 50px;
 }
-/* line 70, ../sass/modules/register.scss */
+/* line 76, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-role label .candidate-image {
   background-image: url("/lib/img/candblue.png");
 }
-/* line 75, ../sass/modules/register.scss */
+/* line 81, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-role label .interviewer-image {
   background-image: url("/lib/img/intblue.png");
 }
-/* line 79, ../sass/modules/register.scss */
+/* line 85, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-role label .role-label {
   color: #06aaf7;
   padding-top: 25px;
   font-size: 20px;
 }
-/* line 85, ../sass/modules/register.scss */
+/* line 91, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-role label.selected {
   background-color: #06aaf7;
 }
-/* line 88, ../sass/modules/register.scss */
+/* line 94, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-role label.selected .candidate-image {
   background-image: url("/lib/img/candwhite.png");
 }
-/* line 93, ../sass/modules/register.scss */
+/* line 99, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-role label.selected .interviewer-image {
   background-image: url("/lib/img/intwhite.png");
 }
-/* line 97, ../sass/modules/register.scss */
+/* line 103, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-role label.selected .role-label {
   color: #fff;
   padding-top: 25px;
   font-size: 20px;
 }
-/* line 103, ../sass/modules/register.scss */
+/* line 109, ../sass/modules/register.scss */
 .register-steps .register-step-box .register-role label img {
   padding: 3px;
 }
 
-/* line 112, ../sass/modules/register.scss */
+/* line 118, ../sass/modules/register.scss */
 a.loginButton {
   color: #06aaf7;
   cursor: pointer;
 }
-/* line 115, ../sass/modules/register.scss */
+/* line 121, ../sass/modules/register.scss */
 a.loginButton:hover {
   color: #fff;
 }
@@ -683,6 +710,11 @@ a.loginButton:hover {
   -moz-user-select: moz-none;
   -ms-user-select: none;
   user-select: none;
+}
+
+/* line 22, ../sass/helpers/variables.scss */
+.hide {
+  display: none;
 }
 
 /* line 3, ../sass/modules/navs.scss */
@@ -914,6 +946,11 @@ a.loginButton:hover {
   -moz-user-select: moz-none;
   -ms-user-select: none;
   user-select: none;
+}
+
+/* line 22, ../sass/helpers/variables.scss */
+.hide {
+  display: none;
 }
 
 /* line 3, ../sass/modules/userwall.scss */

@@ -198,7 +198,7 @@ if(!empty($_POST))
 						    </div>
 						  </section>
             		</div>
-            		<div class="register-role">
+            		<div class="register-role step1Box">
             			<h1>Pick your role: </h1>
 				    	<input type="radio" name="role" class="interviewer" value="Interviewer"/>
 					    <label for="interviewer">
@@ -210,7 +210,15 @@ if(!empty($_POST))
 					    	<div class="candidate-image"></div>
 					    	<div class="role-label">Candidate</div>
 					</div>
-					<button class="small-accent step1tostep2">
+					<div class="step2Box">Step 2</div>
+					<div class="step3Box">Step 3</div>
+					<div clsss="step4Box">Step 4</div>
+					<button class="small-accent prevStep">
+	                    <div class="buttonLeft pull-left">
+	                        <div class="title">Back</div>
+	                    </div>
+	                </button>
+					<button class="small-accent nextStep">
 	                    <div class="buttonLeft pull-left">
 	                        <div class="title">Next</div>
 	                    </div>

@@ -12,3 +12,8 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+/* line 22, ../../sass/helpers/variables.scss */
+.hide {
+  display: none;
+}

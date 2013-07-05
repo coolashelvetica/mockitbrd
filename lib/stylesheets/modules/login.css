@@ -13,6 +13,11 @@
   user-select: none;
 }
 
+/* line 22, ../../sass/helpers/variables.scss */
+.hide {
+  display: none;
+}
+
 /* line 4, ../../sass/modules/login.scss */
 ::-webkit-input-placeholder {
   font-family: homizio;

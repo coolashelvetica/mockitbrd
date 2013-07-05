@@ -13,6 +13,11 @@
   user-select: none;
 }
 
+/* line 22, ../../sass/helpers/variables.scss */
+.hide {
+  display: none;
+}
+
 /* line 3, ../../sass/modules/buttons.scss */
 .big-accent {
   width: 250px;

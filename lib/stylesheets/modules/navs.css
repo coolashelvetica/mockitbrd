@@ -13,6 +13,11 @@
   user-select: none;
 }
 
+/* line 22, ../../sass/helpers/variables.scss */
+.hide {
+  display: none;
+}
+
 /* line 3, ../../sass/modules/navs.scss */
 .navigation, .public-nav, .private-nav {
   width: 100%;
