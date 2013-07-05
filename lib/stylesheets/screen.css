@@ -459,27 +459,27 @@ input:-moz-placeholder {
   cursor: pointer;
   width: 150px;
   height: 150px;
-  background-color: #06aaf7;
+  background-color: #fff;
 }
 /* line 28, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label .candidate-image {
-  background-image: url("/lib/img/candwhite.png");
+  background-image: url("/lib/img/candblue.png");
 }
 /* line 33, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label .interviewer-image {
-  background-image: url("/lib/img/intwhite.png");
+  background-image: url("/lib/img/intblue.png");
 }
 /* line 38, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label.selected {
-  background-color: #fff;
+  background-color: #06aaf7;
 }
 /* line 41, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label.selected .candidate-image {
-  background-image: url("/lib/img/candblue.png");
+  background-image: url("/lib/img/candwhite.png");
 }
 /* line 46, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label.selected .interviewer-image {
-  background-image: url("/lib/img/intblue.png");
+  background-image: url("/lib/img/intwhite.png");
 }
 /* line 51, ../sass/modules/register.scss */
 .register-step-1 .register-step-box .register-role label img {

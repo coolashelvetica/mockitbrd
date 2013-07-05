@@ -23,28 +23,28 @@
                     cursor: pointer;
                     width: 150px;
                     height: 150px;
-                    background-color: $accentColor;
+                    background-color: #fff;
 
                     .candidate-image {
-                        background-image: url("/lib/img/candwhite.png");
+                        background-image: url("/lib/img/candblue.png");
                         @extend .image-role;
                     }
 
                     .interviewer-image {
-                        background-image: url("/lib/img/intwhite.png");
+                        background-image: url("/lib/img/intblue.png");
                         @extend .image-role;
                     }
 
                     &.selected {
-                        background-color: #fff;
+                        background-color: $accentColor;
 
                         .candidate-image {
-                            background-image: url("/lib/img/candblue.png");
+                            background-image: url("/lib/img/candwhite.png");
                             @extend .image-role;
                         }
 
                         .interviewer-image {
-                            background-image: url("/lib/img/intblue.png");
+                            background-image: url("/lib/img/intwhite.png");
                             @extend .image-role;
                         }
                     }
