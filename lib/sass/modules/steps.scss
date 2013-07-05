@@ -14,7 +14,7 @@
   padding: 4px;
   background: rgba(black, .25);
   border-radius: 6px;
-  @include box-shadow(inset 0 1px 2px rgba(black, .25),
+  box-shadow(inset 0 1px 2px rgba(black, .25),
                       0 1px rgba(white, .08));
 }
 
@@ -22,9 +22,9 @@
   position: relative;
   height: 16px;
   border-radius: 4px;
-  @include transition(.4s linear);
-  @include transition-property(width, background-color);
-  @include box-shadow(0 0 1px 1px rgba(black, .25),
+  transition(.4s linear);
+  transition-property(width, background-color);
+  box-shadow(0 0 1px 1px rgba(black, .25),
                       inset 0 1px rgba(white, .1));
 
   &:before, &:after {
@@ -45,7 +45,7 @@
     z-index: 2;
     bottom: 45%;
     border-radius: 4px;
-    @include linear-gradient(top, rgba(white, .3), rgba(white, .05));
+    linear-gradient(top, rgba(white, .3), rgba(white, .05));
   }
 }
 
