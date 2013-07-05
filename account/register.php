@@ -212,13 +212,13 @@ if(!empty($_POST))
 					</div>
 					<div class="step2Box hide">Step 2</div>
 					<div class="step3Box hide">Step 3</div>
-					<div clsss="step4Box hide">Step 4</div>
+					<div class="step4Box hide">Step 4</div>
 					<button class="small-accent prevStep">
 	                    <div class="buttonLeft pull-left">
 	                        <div class="title">Back</div>
 	                    </div>
 	                </button>
-					<button class="small-accent nextStep">
+					<button class="small-accent nextStep goToStep2">
 	                    <div class="buttonLeft pull-left">
 	                        <div class="title">Next</div>
 	                    </div>
