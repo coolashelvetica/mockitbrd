@@ -1,5 +1,5 @@
 
-@import "/lib/sass/helpers/variables";
+@import "../helpers/variables";
 
 .image-role {
     width: 75px;
@@ -36,7 +36,7 @@
                     }
 
                     &.selected {
-                        background-color: #ccc;
+                        background-color: #fff;
 
                         .candidate-image {
                             background-image: url("/lib/img/candblue.png");
