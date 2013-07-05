@@ -46,7 +46,7 @@ body {
 
 .home-banner {
 		@extend .banner;
-        background-image: url("../img/banner-hw.jpg");
+        background-image: url("/lib/img/banner-hw.jpg");
 		height: 525px;
         padding-top: 175px;
 
@@ -68,7 +68,7 @@ body {
 
 	.imac {
 		float: right;
-		background-image: url("../img/imac.png");
+		background-image: url("/lib/img/imac.png");
 		background-repeat: no-repeat;
 		background-size: 100%;
 		width: 700px;
@@ -81,6 +81,18 @@ body {
 
 .landing-banner {
 	@extend .banner;
+	height: 450px;
+	overflow: hidden;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.register-banner {
+	@extend .banner;
+	background-image: url("/lib/img/registerbg.jpg");
 	height: 450px;
 	overflow: hidden;
 

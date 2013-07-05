@@ -866,7 +866,7 @@ body {
 }
 
 /* line 30, ../sass/screen.scss */
-.banner, .home-banner, .landing-banner {
+.banner, .home-banner, .landing-banner, .register-banner {
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -885,7 +885,7 @@ body {
 
 /* line 47, ../sass/screen.scss */
 .home-banner {
-  background-image: url("../img/banner-hw.jpg");
+  background-image: url("/lib/img/banner-hw.jpg");
   height: 525px;
   padding-top: 175px;
 }
@@ -908,7 +908,7 @@ body {
 /* line 69, ../sass/screen.scss */
 .home-banner .imac {
   float: right;
-  background-image: url("../img/imac.png");
+  background-image: url("/lib/img/imac.png");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 700px;
@@ -925,6 +925,18 @@ body {
 }
 /* line 87, ../sass/screen.scss */
 .landing-banner img {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 93, ../sass/screen.scss */
+.register-banner {
+  background-image: url("/lib/img/registerbg.jpg");
+  height: 450px;
+  overflow: hidden;
+}
+/* line 99, ../sass/screen.scss */
+.register-banner img {
   height: 100%;
   width: 100%;
 }

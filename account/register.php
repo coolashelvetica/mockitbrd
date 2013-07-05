@@ -175,47 +175,17 @@ if(!empty($_POST))
             </form>
         </div>
         <div class="black-overlay"></div>
-        <nav class="public-nav">
-            <div class="logo-holder">
-                <img src="/lib/img/full-logo.png">
+        <header class="register-banner">
+            <div class="register-step-1">
+            	<div class="register-step-box">
+            		<div class="register-role">
+				    	<input type="radio" name="role" class="interviewer" value="Interviewer"/>
+					    <label for="interviewer"><img src="intblue.png"/></label>
+					    <input type="radio" name="role" class="Candidate" value="Candidate"/>
+					    <label for="happy"><img src="candwhite.png"/></label>
+					</div>
+            	</div>
             </div>
-            <ul class="nav">
-                <li>company</li>
-                <li>how it works</li>
-                <li>services</li>
-                <li>pricing</li>
-                <li class="loginButton">
-                    <button class="medium-accent">
-                    <div class="buttonLeft pull-left">
-                        <div class="title">Login</div>
-                    </div>
-                    <div class="buttonRight pull-right">
-                        <i class="icon-circle-arrow-right"></i>
-                    </div>
-                </button>
-                </li>
-            </ul>
-        </nav>
-        <header class="home-banner">
-            <div class="message">
-                <h1>Nail the interview.<br>Land the job.</h1>
-                <ul class="big-social">
-                    <li><i class="icon-facebook"></i></li>
-                    <li><i class="icon-twitter"></i></li>
-                </ul>
-                <P>Discover how simulating your next interview with an industry profressional can help you land your next position on your ladder to success.</P>
-                <button class="big-accent">
-                    <div class="buttonLeft pull-left">
-                        <div class="title">Mock it!</div>
-                        <div class="lede">sign up</div>
-                    </div>
-                    <div class="buttonRight pull-right">
-                        <i class="icon-circle-arrow-right"></i>
-                    </div>
-
-                </button>
-            </div>
-            <div class="imac"></div>
         </header>
 
         <script data-main="/lib/js/main.js" src="/lib/js/require.js"></script>
