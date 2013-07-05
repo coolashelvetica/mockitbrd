@@ -1,22 +1,44 @@
 /*
-Syntax error: File to import not found or unreadable: steps.
-              Load paths:
-                /Users/fashiru/prj/mockitbrd/lib/sass
-                /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/blueprint/stylesheets
-                /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets
-                Compass::SpriteImporter
-        on line 3 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss
+Syntax error: Undefined mixin 'box-shadow'.
+        on line 18 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss, in `box-shadow'
+        from line 18 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss
+        from line 3 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss
         from line 10 of /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss
 
-1: /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss
-
 Backtrace:
+/Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss:18:in `box-shadow'
+/Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss:18
 /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss:3
 /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss:10
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/import_node.rb:67:in `import'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/import_node.rb:28:in `imported_file'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/import_node.rb:37:in `css_import?'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:217:in `visit_import'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:253:in `visit_mixin'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:227:in `map'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
@@ -58,11 +80,11 @@ Backtrace:
 /Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
 /Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
 /Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:31:in `create'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:26:in `created'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:25:in `each'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:25:in `created'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:17:in `refresh'
 /Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
 /Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
 /Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
@@ -84,4 +106,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: steps.\A               Load paths:\A                 /Users/fashiru/prj/mockitbrd/lib/sass\A                 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 3 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss\A         from line 10 of /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss\A \A 1: /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss"; }
+  content: "Syntax error: Undefined mixin 'box-shadow'.\A         on line 18 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss, in `box-shadow'\A         from line 18 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss\A         from line 3 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss\A         from line 10 of /Users/fashiru/prj/mockitbrd/lib/sass/screen.scss"; }

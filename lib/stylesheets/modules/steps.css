@@ -2,12 +2,10 @@
 Syntax error: Undefined mixin 'box-shadow'.
         on line 18 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss, in `box-shadow'
         from line 18 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss
-        from line 3 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss
 
 Backtrace:
 /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss:18:in `box-shadow'
 /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss:18
-/Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss:3
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:253:in `visit_mixin'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
@@ -31,12 +29,6 @@ Backtrace:
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:320:in `visit_rule'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:227:in `map'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
@@ -98,4 +90,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'box-shadow'.\A         on line 18 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss, in `box-shadow'\A         from line 18 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss\A         from line 3 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss"; }
+  content: "Syntax error: Undefined mixin 'box-shadow'.\A         on line 18 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss, in `box-shadow'\A         from line 18 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/steps.scss"; }
