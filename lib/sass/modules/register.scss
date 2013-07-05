@@ -1,4 +1,11 @@
 
+.image-role {
+    width: 75px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .register-step-1 {
     .register-step-box {
         .register-role {
@@ -12,26 +19,27 @@
 
                     .candidate-image {
                         background-image: url("/lib/img/candwhite.png");
+                        @extend .image-role;
                     }
 
                     .interviewer-image {
                         background-image: url("/lib/img/intwhite.png");
+                        @extend .image-role;
                     }
 
                     &.selected {
                         background-color: #ccc;
 
                         .candidate-image {
-                        background-image: url("/lib/img/candblue.png");
+                            background-image: url("/lib/img/candblue.png");
+                            @extend .image-role;
                         }
 
                         .interviewer-image {
                             background-image: url("/lib/img/candblue.png");
+                            @extend .image-role;
                         }
                     }
-
-
-
                 img {
                     padding: 3px;
                 }
