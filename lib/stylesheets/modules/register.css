@@ -82,35 +82,30 @@
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
 }
 /* line 63, ../../sass/modules/steps.scss */
-.register-progress #five:checked ~ .progress > .progress-bar {
-  width: 5%;
-  background-color: #f63a0f;
-}
-/* line 68, ../../sass/modules/steps.scss */
 .register-progress #twentyfive:checked ~ .progress > .progress-bar {
   width: 25%;
-  background-color: #f27011;
+  background-color: #06aaf7;
 }
-/* line 73, ../../sass/modules/steps.scss */
+/* line 68, ../../sass/modules/steps.scss */
 .register-progress #fifty:checked ~ .progress > .progress-bar {
   width: 50%;
-  background-color: #f2b01e;
+  background-color: #06aaf7;
 }
-/* line 78, ../../sass/modules/steps.scss */
+/* line 73, ../../sass/modules/steps.scss */
 .register-progress #seventyfive:checked ~ .progress > .progress-bar {
   width: 75%;
-  background-color: #f2d31b;
+  background-color: #06aaf7;
 }
-/* line 83, ../../sass/modules/steps.scss */
+/* line 78, ../../sass/modules/steps.scss */
 .register-progress #onehundred:checked ~ .progress > .progress-bar {
   width: 100%;
-  background-color: #86e01e;
+  background-color: #06aaf7;
 }
-/* line 88, ../../sass/modules/steps.scss */
+/* line 83, ../../sass/modules/steps.scss */
 .register-progress .radio {
   display: none;
 }
-/* line 92, ../../sass/modules/steps.scss */
+/* line 87, ../../sass/modules/steps.scss */
 .register-progress .label {
   display: inline-block;
   margin: 0 5px 20px;
@@ -120,7 +115,7 @@
   border-radius: 3px;
   cursor: pointer;
 }
-/* line 101, ../../sass/modules/steps.scss */
+/* line 96, ../../sass/modules/steps.scss */
 .register-progress .radio:checked + .label {
   color: white;
   background: rgba(0, 0, 0, 0.25);

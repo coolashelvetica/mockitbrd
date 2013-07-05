@@ -181,20 +181,17 @@ if(!empty($_POST))
             		<div class="register-progress">
             			<h1>Set up your account</h1>
             			 <section class="container">
-    						<input type="radio" class="radio" name="progress" value="five" id="five">
-						    <label for="five" class="label">5%</label>
-
 						    <input type="radio" class="radio" name="progress" value="twentyfive" id="twentyfive" checked>
-						    <label for="twentyfive" class="label">25%</label>
+						    <label for="twentyfive" class="label">Step 1</label>
 
 						    <input type="radio" class="radio" name="progress" value="fifty" id="fifty">
-						    <label for="fifty" class="label">50%</label>
+						    <label for="fifty" class="label">Step 2</label>
 
 						    <input type="radio" class="radio" name="progress" value="seventyfive" id="seventyfive">
-						    <label for="seventyfive" class="label">75%</label>
+						    <label for="seventyfive" class="label">Step 3</label>
 
 						    <input type="radio" class="radio" name="progress" value="onehundred" id="onehundred">
-						    <label for="onehundred" class="label">100%</label>
+						    <label for="onehundred" class="label">Step 4</label>
 
 						    <div class="progress">
 						      <div class="progress-bar"></div>
