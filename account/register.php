@@ -180,24 +180,26 @@ if(!empty($_POST))
             	<div class="register-step-box">
             		<div class="register-progress">
             			<h1>Set up your account</h1>
-            			<ol class="wizard-progress clearfix">
-						    <li class="active-step">
-						        <span class="step-name">Select your role</span>
-						        <span class="visuallyhidden">Step </span><span class="step-num">1</span>
-						    </li>
-						    <li>
-						        <span class="step-name">Personal Information</span>
-						        <span class="visuallyhidden">Step </span><span class="step-num">2</span>
-						    </li>
-						    <li>
-						        <span class="step-name">Role Information</span>
-						        <span class="visuallyhidden">Step </span><span class="step-num">3</span>
-						    </li>
-						    <li>
-						        <span class="step-name">Billing Information</span>
-						        <span class="visuallyhidden">Step </span><span class="step-num">4</span>
-						    </li>
-						</ol>
+            			 <section class="container">
+    						<input type="radio" class="radio" name="progress" value="five" id="five">
+						    <label for="five" class="label">5%</label>
+
+						    <input type="radio" class="radio" name="progress" value="twentyfive" id="twentyfive" checked>
+						    <label for="twentyfive" class="label">25%</label>
+
+						    <input type="radio" class="radio" name="progress" value="fifty" id="fifty">
+						    <label for="fifty" class="label">50%</label>
+
+						    <input type="radio" class="radio" name="progress" value="seventyfive" id="seventyfive">
+						    <label for="seventyfive" class="label">75%</label>
+
+						    <input type="radio" class="radio" name="progress" value="onehundred" id="onehundred">
+						    <label for="onehundred" class="label">100%</label>
+
+						    <div class="progress">
+						      <div class="progress-bar"></div>
+						    </div>
+						  </section>
             		</div>
             		<div class="register-role">
 				    	<input type="radio" name="role" class="interviewer" value="Interviewer"/>

@@ -1,175 +1,61 @@
-/* line 9, ../../sass/helpers/variables.scss */
-.clear-both {
-  clear: both;
-}
+/*
+Syntax error: Invalid CSS after "}": expected "}", was ""
+        on line 89 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss
 
-/* line 13, ../../sass/helpers/variables.scss */
-.unselectable {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: moz-none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* line 4, ../../sass/modules/register.scss */
-.image-role, .register-step-1 .register-step-box .register-role label .candidate-image, .register-step-1 .register-step-box .register-role label .interviewer-image, .register-step-1 .register-step-box .register-role label.selected .candidate-image, .register-step-1 .register-step-box .register-role label.selected .interviewer-image {
-  width: 80px;
-  height: 80px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  display: block;
-  margin: 0 auto;
-  margin-top: 30px;
-}
-
-/* line 14, ../../sass/modules/register.scss */
-.register-step-1 {
-  width: 700px;
-  height: 450px;
-  margin: 0 auto;
-  margin-top: 10%;
-  text-align: center;
-}
-/* line 21, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box {
-  background-image: url("/lib/img/stepboxbg.png");
-  width: 700px;
-  height: 500px;
-  margin: 0 auto;
-  background-position: 0px;
-}
-/* line 28, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-progress {
-  color: #fff;
-  font-weight: 100;
-}
-/* line 31, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-progress h1 {
-  font-size: 24px;
-  padding-top: 30px;
-}
-/* line 35, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-progress .visuallyhidden {
-  display: none;
-}
-/* line 39, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-progress .wizard-progress {
-  list-style: none;
-  list-style-image: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 50px;
-  float: left;
-  white-space: nowrap;
-}
-/* line 50, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-progress .wizard-progress li {
-  float: left;
-  margin-right: 74px;
-  text-align: center;
-  position: relative;
-  width: 88px;
-  height: 73px;
-}
-/* line 58, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-progress .wizard-progress li:last-of-type .step-num:after {
-  display: none;
-}
-/* line 64, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-progress .wizard-progress .active-step .step-num {
-  background-color: #06aaf7;
-}
-/* line 68, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-progress .wizard-progress .step-name {
-  display: table-cell;
-  height: 32px;
-  vertical-align: bottom;
-  text-align: center;
-  width: 100px;
-}
-/* line 75, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-progress .wizard-progress .step-name-wrapper {
-  display: table-cell;
-  height: 100%;
-  vertical-align: bottom;
-}
-/* line 80, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-progress .wizard-progress .step-num {
-  font-size: 26px;
-  font-weight: 100;
-  border: 3px solid #fff;
-  border-radius: 100px;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-  margin-top: 10px;
-}
-/* line 90, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-progress .wizard-progress .step-num:after {
-  content: "";
-  display: block;
-  background: #fff;
-  height: 5px;
-  width: 130px;
-  position: absolute;
-  bottom: 10px;
-  left: 60px;
-}
-/* line 105, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role {
-  margin-left: 50px;
-}
-/* line 107, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role .input_hidden {
-  position: absolute;
-  left: -9999px;
-}
-/* line 111, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label {
-  display: inline-block;
-  cursor: pointer;
-  width: 170px;
-  height: 170px;
-  background-color: #fff;
-  margin-right: 50px;
-}
-/* line 119, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label .candidate-image {
-  background-image: url("/lib/img/candblue.png");
-}
-/* line 124, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label .interviewer-image {
-  background-image: url("/lib/img/intblue.png");
-}
-/* line 128, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label .role-label {
-  color: #06aaf7;
-  padding-top: 25px;
-  font-size: 20px;
-}
-/* line 134, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label.selected {
-  background-color: #06aaf7;
-}
-/* line 137, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label.selected .candidate-image {
-  background-image: url("/lib/img/candwhite.png");
-}
-/* line 142, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label.selected .interviewer-image {
-  background-image: url("/lib/img/intwhite.png");
-}
-/* line 146, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label.selected .role-label {
-  color: #fff;
-  padding-top: 25px;
-  font-size: 20px;
-}
-/* line 152, ../../sass/modules/register.scss */
-.register-step-1 .register-step-box .register-role label img {
-  padding: 3px;
-}
+Backtrace:
+/Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss:89
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1148:in `expected'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1084:in `expected'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:1079:in `tok!'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:536:in `block'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:529:in `ruleset'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:553:in `block_child'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:546:in `block_contents'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:82:in `stylesheet'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/scss/parser.rb:27:in `parse'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/engine.rb:342:in `_to_tree'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/engine.rb:315:in `_render'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.9/lib/sass/../sass/engine.rb:262:in `render'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/Library/Ruby/Site/1.8/rubygems/core_ext/kernel_require.rb:45:in `to_proc'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `modified'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `run'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+/Library/Ruby/Gems/1.8/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:30
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:44:in `call'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/bin/compass:44
+/usr/bin/compass:23:in `load'
+/usr/bin/compass:23
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 89 of /Users/fashiru/prj/mockitbrd/lib/sass/modules/register.scss"; }
