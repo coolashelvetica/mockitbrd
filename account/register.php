@@ -198,6 +198,7 @@ if(!empty($_POST))
 						    </div>
 						  </section>
             		</div>
+            		<h1>Pick your role: </h1>
             		<div class="register-role">
 				    	<input type="radio" name="role" class="interviewer" value="Interviewer"/>
 					    <label for="interviewer">
