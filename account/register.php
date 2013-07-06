@@ -218,7 +218,7 @@ if(!empty($_POST))
 	                        <div class="title">Back</div>
 	                    </div>
 	                </button>
-					<button class="small-accent nextStep goToStep2">
+					<button class="small-accent goToStep2" id="nextStep">
 	                    <div class="buttonLeft pull-left">
 	                        <div class="title">Next</div>
 	                    </div>
