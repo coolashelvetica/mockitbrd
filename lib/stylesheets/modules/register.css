@@ -156,13 +156,13 @@
   position: relative;
 }
 /* line 30, ../../sass/modules/register.scss */
-.register-steps .register-step-box .nextStep {
+.register-steps .register-step-box #nextStep {
   float: right;
   right: 40px;
   bottom: -60px;
 }
 /* line 35, ../../sass/modules/register.scss */
-.register-steps .register-step-box .prevStep {
+.register-steps .register-step-box #prevStep {
   float: left;
   left: 40px;
   bottom: -60px;
